@@ -66,7 +66,6 @@
      <Compile Include="Assets\Scripts\Explosions_&amp;_Impacts\ExplosiveBarrelScript.cs" />
      <Compile Include="Assets\Scripts\Explosions_&amp;_Impacts\ImpactScript.cs" />
      <Compile Include="Assets\Scripts\FPSController\FpsControllerLPFP.cs" />
-     <Compile Include="Assets\Scripts\GeneratePlane.cs" />
      <Compile Include="Assets\Scripts\Health\Health.cs" />
      <Compile Include="Assets\Scripts\Health\HealthBar.cs" />
      <Compile Include="Assets\Scripts\Health\HealthBar1.cs" />

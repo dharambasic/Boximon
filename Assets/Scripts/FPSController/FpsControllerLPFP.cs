@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
-
-
-    /// Manages a first person character
-    [RequireComponent(typeof(Rigidbody))]
+/// Manages a first person character
+[RequireComponent(typeof(Rigidbody))]
     [RequireComponent(typeof(CapsuleCollider))]
     [RequireComponent(typeof(AudioSource))]
     public class FpsControllerLPFP : MonoBehaviour
@@ -70,6 +69,9 @@ using UnityEngine;
     public int playerHealth = 100;
     public GameObject Assault;
     public GameObject Pistol;
+    public GameObject Canvas;
+   
+    bool paused = false;
 
         private readonly RaycastHit[] _groundCastResults = new RaycastHit[8];
         private readonly RaycastHit[] _wallCastResults = new RaycastHit[8];
@@ -91,6 +93,7 @@ using UnityEngine;
             _velocityZ = new SmoothVelocity();
             Cursor.lockState = CursorLockMode.Locked;
             ValidateRotationRestriction();
+        Canvas.gameObject.SetActive(false);
         }
 			
         private Transform AssignCharactersCamera()
@@ -172,7 +175,32 @@ using UnityEngine;
             Assault.gameObject.SetActive(true);
             Pistol.gameObject.SetActive(false);
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if(paused == true)
+            {
+                Time.timeScale = 1.0f;
+                Canvas.gameObject.SetActive(false);
+                
+                paused = false;
+                Cursor.lockState = CursorLockMode.Locked;
+            
+              
+            } else
+            {
+                Time.timeScale = 0.0f;
+                Canvas.gameObject.SetActive(true);
+               
+                paused = true;
+                Cursor.lockState = CursorLockMode.Confined;
+                Cursor.visible = true;
+              
+            }
         }
+        }
+
+   
 
         private void RotateCameraAndCharacter()
         {

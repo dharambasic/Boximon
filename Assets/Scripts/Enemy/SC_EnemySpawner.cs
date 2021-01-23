@@ -87,18 +87,6 @@ public class SC_EnemySpawner : MonoBehaviour
         }
     }
 
-    void OnGUI()
-    {
-       
-      
-
-        GUI.Box(new Rect(Screen.width / 2 - 50, 10, 100, 25), (enemiesToEliminate).ToString());
-
-        if (waitingForWave)
-        {
-            GUI.Box(new Rect(Screen.width / 2 - 125, Screen.height / 4 - 12, 250, 25), "Waiting for Wave " + waveNumber.ToString() + ". " + ((int)newWaveTimer).ToString() + " seconds left...");
-        }
-    }
 
     public void EnemyEliminated(SC_NPCEnemy enemy)
     {
