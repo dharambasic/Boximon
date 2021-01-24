@@ -16,9 +16,11 @@ public class SC_NPCEnemy : MonoBehaviour, IEntity
     public Transform firePoint;
     public GameObject npcDeadPrefab;
     public float range = 20f;
-    //public AudioClip dead;
-    //private AudioSource Audio;
-   
+
+    //public AudioSource audio;
+    public AudioClip dead;
+    public float volume = 100;
+  
 
     
     public Transform playerTransform;
@@ -37,7 +39,11 @@ public class SC_NPCEnemy : MonoBehaviour, IEntity
         r = GetComponent<Rigidbody>();
         r.useGravity = false;
         r.isKinematic = true;
-        //Audio = GetComponent<AudioSource>();
+       // audio = GetComponent<AudioSource>();
+        
+     
+     
+        
 
     }
 
@@ -67,6 +73,8 @@ public class SC_NPCEnemy : MonoBehaviour, IEntity
 
          
         }
+
+     
 
         if (player.currentHealth <= 0)
         {
@@ -109,7 +117,7 @@ public class SC_NPCEnemy : MonoBehaviour, IEntity
             //Slightly bounce the npc dead prefab up
             npcDead.GetComponent<Rigidbody>().velocity = (-(playerTransform.position - transform.position).normalized * 8) + new Vector3(0, 5, 0);
             Destroy(npcDead, 10);
-            
+            AudioSource.PlayClipAtPoint(dead, transform.position, volume);
           
             Destroy(gameObject);
             

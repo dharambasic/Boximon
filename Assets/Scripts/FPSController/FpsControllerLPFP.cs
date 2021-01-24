@@ -70,6 +70,7 @@ using UnityEngine.UI;
     public GameObject Assault;
     public GameObject Pistol;
     public GameObject Canvas;
+    public SC_NPCEnemy dragon;
    
     bool paused = false;
 
@@ -92,9 +93,11 @@ using UnityEngine.UI;
             _velocityX = new SmoothVelocity();
             _velocityZ = new SmoothVelocity();
             Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
             ValidateRotationRestriction();
         Canvas.gameObject.SetActive(false);
-        }
+        GameObject.FindGameObjectWithTag("Music").GetComponent<Music>().StopMusic();
+    }
 			
         private Transform AssignCharactersCamera()
         {
@@ -198,7 +201,15 @@ using UnityEngine.UI;
               
             }
         }
+
+        if(dragon.npcHP <= 0)
+        {
+            LevelMenager man = GameObject.Find("LevelMenager").GetComponent<LevelMenager>();
+            man.LoadLevel("Win");
         }
+
+       
+    }
 
    
 

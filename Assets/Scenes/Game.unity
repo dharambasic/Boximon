@@ -506,6 +506,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2048232345}
+    - target: {fileID: 1940526431283047180, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -544,7 +549,7 @@ PrefabInstance:
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
       propertyPath: m_RootOrder
-      value: 94
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
@@ -566,6 +571,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Cactus (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7340365139718147467, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f1ad64cafb0c8c45822c84aab0d4b29, type: 3}
 --- !u!1001 &16264587
@@ -585,6 +595,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2048232345}
+    - target: {fileID: 207170847710466725, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -623,7 +638,7 @@ PrefabInstance:
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_RootOrder
-      value: 93
+      value: 92
       objectReference: {fileID: 0}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
@@ -645,7 +660,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Fiery (7)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5698239544584978436, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5698239544584978459, guid: 719126e8bf675874891338f88a633553, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 719126e8bf675874891338f88a633553, type: 3}
 --- !u!1001 &16955554
 PrefabInstance:
@@ -664,6 +685,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 207170847710466725, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -702,7 +728,7 @@ PrefabInstance:
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_RootOrder
-      value: 80
+      value: 79
       objectReference: {fileID: 0}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
@@ -724,7 +750,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Fiery (11)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5698239544584978436, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5698239544584978459, guid: 719126e8bf675874891338f88a633553, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 719126e8bf675874891338f88a633553, type: 3}
 --- !u!4 &17813332 stripped
 Transform:
@@ -818,6 +850,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 207170847710466725, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -856,7 +893,7 @@ PrefabInstance:
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_RootOrder
-      value: 49
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
@@ -878,7 +915,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Fiery (17)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5698239544584978436, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5698239544584978459, guid: 719126e8bf675874891338f88a633553, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 719126e8bf675874891338f88a633553, type: 3}
 --- !u!4 &29444764 stripped
 Transform:
@@ -1083,6 +1126,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Dino (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 14851788893194867, guid: 976e5c24600e1f34a9e3b9fa783d39df,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1121,7 +1169,7 @@ PrefabInstance:
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
       propertyPath: m_RootOrder
-      value: 84
+      value: 83
       objectReference: {fileID: 0}
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
@@ -1148,6 +1196,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 7482614045602888474, guid: 976e5c24600e1f34a9e3b9fa783d39df,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 976e5c24600e1f34a9e3b9fa783d39df, type: 3}
 --- !u!4 &48469198 stripped
@@ -1528,10 +1581,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 1266422611180266890, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 4336757959210890295, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
       propertyPath: m_Name
       value: Boximon Beary (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336757959210890295, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
@@ -1571,7 +1634,7 @@ PrefabInstance:
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 32
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
@@ -2023,6 +2086,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Dino (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 14851788893194867, guid: 976e5c24600e1f34a9e3b9fa783d39df,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2088,6 +2156,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 7482614045602888474, guid: 976e5c24600e1f34a9e3b9fa783d39df,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 976e5c24600e1f34a9e3b9fa783d39df, type: 3}
 --- !u!4 &94852361 stripped
@@ -2119,6 +2192,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 1940526431283047180, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2157,7 +2235,7 @@ PrefabInstance:
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
       propertyPath: m_RootOrder
-      value: 63
+      value: 62
       objectReference: {fileID: 0}
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
@@ -2178,6 +2256,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Boximon Cactus (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340365139718147467, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f1ad64cafb0c8c45822c84aab0d4b29, type: 3}
@@ -2463,6 +2546,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue
       objectReference: {fileID: 0}
+    - target: {fileID: 581166866752405993, guid: bbd83ddf03119dc4f87e02c382268782,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 581166866752599326, guid: bbd83ddf03119dc4f87e02c382268782,
         type: 3}
       propertyPath: playerTransform
@@ -2493,6 +2581,36 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2048232345}
+    - target: {fileID: 581166866752599326, guid: bbd83ddf03119dc4f87e02c382268782,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
+    - target: {fileID: 581166866752599327, guid: bbd83ddf03119dc4f87e02c382268782,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2.9577484
+      objectReference: {fileID: 0}
+    - target: {fileID: 581166866752599327, guid: bbd83ddf03119dc4f87e02c382268782,
+        type: 3}
+      propertyPath: m_Center.x
+      value: 0.22220606
+      objectReference: {fileID: 0}
+    - target: {fileID: 581166866752599327, guid: bbd83ddf03119dc4f87e02c382268782,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.9788742
+      objectReference: {fileID: 0}
+    - target: {fileID: 581166866752599327, guid: bbd83ddf03119dc4f87e02c382268782,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 9.370911
+      objectReference: {fileID: 0}
+    - target: {fileID: 581166866752599327, guid: bbd83ddf03119dc4f87e02c382268782,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -0.053863548
+      objectReference: {fileID: 0}
     - target: {fileID: 581166866752686447, guid: bbd83ddf03119dc4f87e02c382268782,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2531,7 +2649,7 @@ PrefabInstance:
     - target: {fileID: 581166866752686447, guid: bbd83ddf03119dc4f87e02c382268782,
         type: 3}
       propertyPath: m_RootOrder
-      value: 114
+      value: 112
       objectReference: {fileID: 0}
     - target: {fileID: 581166866752686447, guid: bbd83ddf03119dc4f87e02c382268782,
         type: 3}
@@ -2601,7 +2719,7 @@ PrefabInstance:
     - target: {fileID: 3424296594449065775, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 37
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 3424296594449065775, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
@@ -2628,12 +2746,23 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 5981716690383083581, guid: a0c4318188f1a3842b2000af18bc86a9,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 6889234526663317664, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
       propertyPath: m_Name
       value: Boximon Cyclopes 1 (11)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6889234526663317664, guid: a0c4318188f1a3842b2000af18bc86a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1056921482240274418, guid: a0c4318188f1a3842b2000af18bc86a9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a0c4318188f1a3842b2000af18bc86a9, type: 3}
 --- !u!4 &110954937 stripped
 Transform:
@@ -2715,10 +2844,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 651984576122074135, guid: 19950b0302d53f242a52fd29d37f4751,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 873342793350619243, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
       propertyPath: m_Name
       value: Boximon Treasure (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 873342793350619243, guid: 19950b0302d53f242a52fd29d37f4751,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
@@ -2758,7 +2897,7 @@ PrefabInstance:
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
@@ -3386,10 +3525,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 651984576122074135, guid: 19950b0302d53f242a52fd29d37f4751,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 873342793350619243, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
       propertyPath: m_Name
       value: Boximon Treasure (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 873342793350619243, guid: 19950b0302d53f242a52fd29d37f4751,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
@@ -3799,85 +3948,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f5abae2220262d448d1291734de367b, type: 3}
---- !u!1001 &203911521
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 332366637}
-    m_Modifications:
-    - target: {fileID: 1215783417916910306, guid: e393773bfa4833e45a1e6e1d5d604031,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 2048232345}
-    - target: {fileID: 1215783417916910306, guid: e393773bfa4833e45a1e6e1d5d604031,
-        type: 3}
-      propertyPath: playerTransform
-      value: 
-      objectReference: {fileID: 2048232346}
-    - target: {fileID: 2261532895061151141, guid: e393773bfa4833e45a1e6e1d5d604031,
-        type: 3}
-      propertyPath: m_Name
-      value: Red (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2261532895061361857, guid: e393773bfa4833e45a1e6e1d5d604031,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -151.5506
-      objectReference: {fileID: 0}
-    - target: {fileID: 2261532895061361857, guid: e393773bfa4833e45a1e6e1d5d604031,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 451.03268
-      objectReference: {fileID: 0}
-    - target: {fileID: 2261532895061361857, guid: e393773bfa4833e45a1e6e1d5d604031,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1557.1123
-      objectReference: {fileID: 0}
-    - target: {fileID: 2261532895061361857, guid: e393773bfa4833e45a1e6e1d5d604031,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.18552877
-      objectReference: {fileID: 0}
-    - target: {fileID: 2261532895061361857, guid: e393773bfa4833e45a1e6e1d5d604031,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.81430644
-      objectReference: {fileID: 0}
-    - target: {fileID: 2261532895061361857, guid: e393773bfa4833e45a1e6e1d5d604031,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.37971726
-      objectReference: {fileID: 0}
-    - target: {fileID: 2261532895061361857, guid: e393773bfa4833e45a1e6e1d5d604031,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.3978678
-      objectReference: {fileID: 0}
-    - target: {fileID: 2261532895061361857, guid: e393773bfa4833e45a1e6e1d5d604031,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 2261532895061361857, guid: e393773bfa4833e45a1e6e1d5d604031,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2261532895061361857, guid: e393773bfa4833e45a1e6e1d5d604031,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 2261532895061361857, guid: e393773bfa4833e45a1e6e1d5d604031,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e393773bfa4833e45a1e6e1d5d604031, type: 3}
 --- !u!1 &204104995 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4127458443936199739, guid: 8ac33b2347e9f3c44b5343e4d23173f9,
@@ -3927,6 +3997,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 207170847710466725, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3965,7 +4040,7 @@ PrefabInstance:
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_RootOrder
-      value: 70
+      value: 69
       objectReference: {fileID: 0}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
@@ -3987,7 +4062,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Fiery (15)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5698239544584978436, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5698239544584978459, guid: 719126e8bf675874891338f88a633553, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 719126e8bf675874891338f88a633553, type: 3}
 --- !u!1001 &210136386
 PrefabInstance:
@@ -4215,10 +4296,20 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2048232345}
+    - target: {fileID: 664020211666470459, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_Name
       value: Boximon Pi
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -4258,7 +4349,7 @@ PrefabInstance:
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_RootOrder
-      value: 97
+      value: 96
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -4426,6 +4517,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 207170847710466725, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4464,7 +4560,7 @@ PrefabInstance:
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
@@ -4485,6 +4581,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Boximon Fiery (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5698239544584978436, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 719126e8bf675874891338f88a633553, type: 3}
@@ -4595,6 +4696,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 207170847710466725, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4633,7 +4739,7 @@ PrefabInstance:
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
@@ -4655,7 +4761,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Fiery (21)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5698239544584978436, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5698239544584978459, guid: 719126e8bf675874891338f88a633553, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 719126e8bf675874891338f88a633553, type: 3}
 --- !u!1001 &231760364
 PrefabInstance:
@@ -4775,7 +4887,7 @@ PrefabInstance:
     - target: {fileID: 7293952431068702808, guid: dfd2cbb08ac95c54fbc9d5fb100a539d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 85
+      value: 84
       objectReference: {fileID: 0}
     - target: {fileID: 7293952431068702808, guid: dfd2cbb08ac95c54fbc9d5fb100a539d,
         type: 3}
@@ -4802,10 +4914,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 7293952431068702812, guid: dfd2cbb08ac95c54fbc9d5fb100a539d,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 7293952431068702814, guid: dfd2cbb08ac95c54fbc9d5fb100a539d,
         type: 3}
       propertyPath: m_Name
       value: Green
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293952431068702814, guid: dfd2cbb08ac95c54fbc9d5fb100a539d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfd2cbb08ac95c54fbc9d5fb100a539d, type: 3}
@@ -4832,10 +4954,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 664020211666470459, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_Name
       value: Boximon Pi (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -4875,7 +5007,7 @@ PrefabInstance:
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -5044,6 +5176,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f5abae2220262d448d1291734de367b, type: 3}
+--- !u!114 &265925508 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 22475965669323365, guid: ee6401608ac7a204f8370391ff1149f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 22475966785918883}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &268654280
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5081,25 +5225,35 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2048232345}
+    - target: {fileID: 1215783417916910306, guid: e393773bfa4833e45a1e6e1d5d604031,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 2261532895061151141, guid: e393773bfa4833e45a1e6e1d5d604031,
         type: 3}
       propertyPath: m_Name
       value: Red
       objectReference: {fileID: 0}
+    - target: {fileID: 2261532895061151141, guid: e393773bfa4833e45a1e6e1d5d604031,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2261532895061361857, guid: e393773bfa4833e45a1e6e1d5d604031,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -139.96375
+      value: -158.2
       objectReference: {fileID: 0}
     - target: {fileID: 2261532895061361857, guid: e393773bfa4833e45a1e6e1d5d604031,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 460.44797
+      value: 466.2
       objectReference: {fileID: 0}
     - target: {fileID: 2261532895061361857, guid: e393773bfa4833e45a1e6e1d5d604031,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1564.9799
+      value: 1568.8
       objectReference: {fileID: 0}
     - target: {fileID: 2261532895061361857, guid: e393773bfa4833e45a1e6e1d5d604031,
         type: 3}
@@ -5124,7 +5278,7 @@ PrefabInstance:
     - target: {fileID: 2261532895061361857, guid: e393773bfa4833e45a1e6e1d5d604031,
         type: 3}
       propertyPath: m_RootOrder
-      value: 112
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 2261532895061361857, guid: e393773bfa4833e45a1e6e1d5d604031,
         type: 3}
@@ -5150,6 +5304,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 10.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572659994561504555, guid: e393773bfa4833e45a1e6e1d5d604031,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 16.230064
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572659994561504555, guid: e393773bfa4833e45a1e6e1d5d604031,
+        type: 3}
+      propertyPath: m_Center.x
+      value: 1.1978047
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572659994561504555, guid: e393773bfa4833e45a1e6e1d5d604031,
+        type: 3}
+      propertyPath: m_Center.y
+      value: -0.020573197
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572659994561504555, guid: e393773bfa4833e45a1e6e1d5d604031,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -0.9982862
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572659994561504555, guid: e393773bfa4833e45a1e6e1d5d604031,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2.6903539
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572659994561504555, guid: e393773bfa4833e45a1e6e1d5d604031,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 3.395612
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e393773bfa4833e45a1e6e1d5d604031, type: 3}
@@ -5962,10 +6146,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 651984576122074135, guid: 19950b0302d53f242a52fd29d37f4751,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 873342793350619243, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
       propertyPath: m_Name
       value: Boximon Treasure (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 873342793350619243, guid: 19950b0302d53f242a52fd29d37f4751,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
@@ -6005,7 +6199,7 @@ PrefabInstance:
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
@@ -6117,6 +6311,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1572532010}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &331098041 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1215783417916910306, guid: e393773bfa4833e45a1e6e1d5d604031,
+    type: 3}
+  m_PrefabInstance: {fileID: 268654280}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 681b8996f46e01b4fb6a8edd25d0878a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &331098046 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2261532895061361857, guid: e393773bfa4833e45a1e6e1d5d604031,
@@ -6158,7 +6364,6 @@ Transform:
   - {fileID: 389194528}
   - {fileID: 679502526}
   - {fileID: 55162208}
-  - {fileID: 855107587}
   - {fileID: 1671887185}
   - {fileID: 2059248389}
   - {fileID: 225191836}
@@ -6261,7 +6466,6 @@ Transform:
   - {fileID: 191284043}
   - {fileID: 19562592}
   - {fileID: 1486192433}
-  - {fileID: 1054070063}
   - {fileID: 331098046}
   - {fileID: 350859300}
   - {fileID: 618975416}
@@ -6367,6 +6571,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Dino (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 14851788893194867, guid: 976e5c24600e1f34a9e3b9fa783d39df,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6405,7 +6614,7 @@ PrefabInstance:
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
       propertyPath: m_RootOrder
-      value: 100
+      value: 99
       objectReference: {fileID: 0}
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
@@ -6432,6 +6641,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2048232345}
+    - target: {fileID: 7482614045602888474, guid: 976e5c24600e1f34a9e3b9fa783d39df,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 976e5c24600e1f34a9e3b9fa783d39df, type: 3}
 --- !u!1001 &357240905
@@ -6579,12 +6793,12 @@ PrefabInstance:
     - target: {fileID: 22475967127036206, guid: ee6401608ac7a204f8370391ff1149f2,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.413
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22475967127036206, guid: ee6401608ac7a204f8370391ff1149f2,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee6401608ac7a204f8370391ff1149f2, type: 3}
@@ -6699,6 +6913,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Dino (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 14851788893194867, guid: 976e5c24600e1f34a9e3b9fa783d39df,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6737,7 +6956,7 @@ PrefabInstance:
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
@@ -6764,6 +6983,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 7482614045602888474, guid: 976e5c24600e1f34a9e3b9fa783d39df,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 976e5c24600e1f34a9e3b9fa783d39df, type: 3}
 --- !u!1001 &378031629
@@ -7185,6 +7409,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 207170847710466725, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7245,7 +7474,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Fiery (24)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5698239544584978436, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5698239544584978459, guid: 719126e8bf675874891338f88a633553, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 719126e8bf675874891338f88a633553, type: 3}
 --- !u!1001 &393924479
 PrefabInstance:
@@ -7343,10 +7578,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 664020211666470459, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_Name
       value: Boximon Pi (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -7386,7 +7631,7 @@ PrefabInstance:
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_RootOrder
-      value: 58
+      value: 57
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -7611,6 +7856,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 207170847710466725, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7671,7 +7921,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Fiery (25)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5698239544584978436, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5698239544584978459, guid: 719126e8bf675874891338f88a633553, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 719126e8bf675874891338f88a633553, type: 3}
 --- !u!4 &414136783 stripped
 Transform:
@@ -7828,10 +8084,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 651984576122074135, guid: 19950b0302d53f242a52fd29d37f4751,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 873342793350619243, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
       propertyPath: m_Name
       value: Boximon Treasure (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 873342793350619243, guid: 19950b0302d53f242a52fd29d37f4751,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
@@ -7871,7 +8137,7 @@ PrefabInstance:
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
       propertyPath: m_RootOrder
-      value: 38
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
@@ -8045,6 +8311,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 1940526431283047180, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8083,7 +8354,7 @@ PrefabInstance:
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
       propertyPath: m_RootOrder
-      value: 53
+      value: 52
       objectReference: {fileID: 0}
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
@@ -8104,6 +8375,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Boximon Cactus (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340365139718147467, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f1ad64cafb0c8c45822c84aab0d4b29, type: 3}
@@ -8152,7 +8428,7 @@ PrefabInstance:
     - target: {fileID: 3424296594449065775, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 89
+      value: 88
       objectReference: {fileID: 0}
     - target: {fileID: 3424296594449065775, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
@@ -8179,12 +8455,23 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 5981716690383083581, guid: a0c4318188f1a3842b2000af18bc86a9,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 6889234526663317664, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
       propertyPath: m_Name
       value: Boximon Cyclopes 1 (3)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6889234526663317664, guid: a0c4318188f1a3842b2000af18bc86a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1056921482240274418, guid: a0c4318188f1a3842b2000af18bc86a9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a0c4318188f1a3842b2000af18bc86a9, type: 3}
 --- !u!1001 &432647303
 PrefabInstance:
@@ -8203,10 +8490,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 651984576122074135, guid: 19950b0302d53f242a52fd29d37f4751,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 873342793350619243, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
       propertyPath: m_Name
       value: Boximon Treasure (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 873342793350619243, guid: 19950b0302d53f242a52fd29d37f4751,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
@@ -8369,10 +8666,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 651984576122074135, guid: 19950b0302d53f242a52fd29d37f4751,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 873342793350619243, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
       propertyPath: m_Name
       value: Boximon Treasure (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 873342793350619243, guid: 19950b0302d53f242a52fd29d37f4751,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
@@ -8412,7 +8719,7 @@ PrefabInstance:
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
       propertyPath: m_RootOrder
-      value: 87
+      value: 86
       objectReference: {fileID: 0}
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
@@ -8448,6 +8755,21 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2048232345}
+    - target: {fileID: 207170847710466725, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
+    - target: {fileID: 207170847710466725, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: audio
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 207170847710466725, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: volume
+      value: 1000
+      objectReference: {fileID: 0}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8486,7 +8808,7 @@ PrefabInstance:
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_RootOrder
-      value: 110
+      value: 109
       objectReference: {fileID: 0}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
@@ -8508,7 +8830,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Fiery (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5698239544584978459, guid: 719126e8bf675874891338f88a633553, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 719126e8bf675874891338f88a633553, type: 3}
 --- !u!4 &452417610 stripped
 Transform:
@@ -8561,7 +8884,7 @@ PrefabInstance:
     - target: {fileID: 7293952431068702808, guid: dfd2cbb08ac95c54fbc9d5fb100a539d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 60
+      value: 59
       objectReference: {fileID: 0}
     - target: {fileID: 7293952431068702808, guid: dfd2cbb08ac95c54fbc9d5fb100a539d,
         type: 3}
@@ -8588,10 +8911,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 7293952431068702812, guid: dfd2cbb08ac95c54fbc9d5fb100a539d,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 7293952431068702814, guid: dfd2cbb08ac95c54fbc9d5fb100a539d,
         type: 3}
       propertyPath: m_Name
       value: Green (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293952431068702814, guid: dfd2cbb08ac95c54fbc9d5fb100a539d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfd2cbb08ac95c54fbc9d5fb100a539d, type: 3}
@@ -9648,7 +9981,7 @@ PrefabInstance:
     - target: {fileID: 3424296594449065775, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 3424296594449065775, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
@@ -9675,12 +10008,23 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 5981716690383083581, guid: a0c4318188f1a3842b2000af18bc86a9,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 6889234526663317664, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
       propertyPath: m_Name
       value: Boximon Cyclopes 1 (13)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6889234526663317664, guid: a0c4318188f1a3842b2000af18bc86a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1056921482240274418, guid: a0c4318188f1a3842b2000af18bc86a9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a0c4318188f1a3842b2000af18bc86a9, type: 3}
 --- !u!1001 &535968350
 PrefabInstance:
@@ -9835,10 +10179,20 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2048232345}
+    - target: {fileID: 664020211666470459, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_Name
       value: Boximon Pi (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -9878,7 +10232,7 @@ PrefabInstance:
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_RootOrder
-      value: 96
+      value: 95
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -11481,7 +11835,7 @@ PrefabInstance:
     - target: {fileID: 3424296594449065775, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 57
+      value: 56
       objectReference: {fileID: 0}
     - target: {fileID: 3424296594449065775, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
@@ -11508,12 +11862,23 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 5981716690383083581, guid: a0c4318188f1a3842b2000af18bc86a9,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 6889234526663317664, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
       propertyPath: m_Name
       value: Boximon Cyclopes 1 (7)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6889234526663317664, guid: a0c4318188f1a3842b2000af18bc86a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1056921482240274418, guid: a0c4318188f1a3842b2000af18bc86a9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a0c4318188f1a3842b2000af18bc86a9, type: 3}
 --- !u!4 &700237590 stripped
 Transform:
@@ -11644,7 +12009,7 @@ PrefabInstance:
     - target: {fileID: 3424296594449065775, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 56
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 3424296594449065775, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
@@ -11671,12 +12036,23 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 5981716690383083581, guid: a0c4318188f1a3842b2000af18bc86a9,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 6889234526663317664, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
       propertyPath: m_Name
       value: Boximon Cyclopes 1 (8)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6889234526663317664, guid: a0c4318188f1a3842b2000af18bc86a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1056921482240274418, guid: a0c4318188f1a3842b2000af18bc86a9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a0c4318188f1a3842b2000af18bc86a9, type: 3}
 --- !u!4 &714056429 stripped
 Transform:
@@ -11707,10 +12083,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 1266422611180266890, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 4336757959210890295, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
       propertyPath: m_Name
       value: Boximon Beary (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336757959210890295, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
@@ -11750,7 +12136,7 @@ PrefabInstance:
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 55
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
@@ -12248,6 +12634,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Dino (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 14851788893194867, guid: 976e5c24600e1f34a9e3b9fa783d39df,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12286,7 +12677,7 @@ PrefabInstance:
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
       propertyPath: m_RootOrder
-      value: 48
+      value: 47
       objectReference: {fileID: 0}
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
@@ -12313,6 +12704,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 7482614045602888474, guid: 976e5c24600e1f34a9e3b9fa783d39df,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 976e5c24600e1f34a9e3b9fa783d39df, type: 3}
 --- !u!4 &779615279 stripped
@@ -12747,6 +13143,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 1940526431283047180, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12785,7 +13186,7 @@ PrefabInstance:
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
@@ -12806,6 +13207,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Boximon Cactus (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340365139718147467, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f1ad64cafb0c8c45822c84aab0d4b29, type: 3}
@@ -12988,10 +13394,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 664020211666470459, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_Name
       value: Boximon Pi (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -13031,7 +13447,7 @@ PrefabInstance:
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -13067,10 +13483,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 651984576122074135, guid: 19950b0302d53f242a52fd29d37f4751,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 873342793350619243, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
       propertyPath: m_Name
       value: Boximon Treasure (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 873342793350619243, guid: 19950b0302d53f242a52fd29d37f4751,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
@@ -13110,7 +13536,7 @@ PrefabInstance:
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
@@ -13213,10 +13639,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 664020211666470459, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_Name
       value: Boximon Pi (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -13256,7 +13692,7 @@ PrefabInstance:
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_RootOrder
-      value: 74
+      value: 73
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -13292,6 +13728,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Boximon Dino (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 14851788893194867, guid: 976e5c24600e1f34a9e3b9fa783d39df,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
@@ -13331,7 +13772,7 @@ PrefabInstance:
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
       propertyPath: m_RootOrder
-      value: 88
+      value: 87
       objectReference: {fileID: 0}
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
@@ -13358,6 +13799,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 7482614045602888474, guid: 976e5c24600e1f34a9e3b9fa783d39df,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 976e5c24600e1f34a9e3b9fa783d39df, type: 3}
 --- !u!1 &823612614
@@ -13807,10 +14253,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 1266422611180266890, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 4336757959210890295, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
       propertyPath: m_Name
       value: Boximon Beary (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336757959210890295, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
@@ -13850,7 +14306,7 @@ PrefabInstance:
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 86
+      value: 85
       objectReference: {fileID: 0}
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
@@ -13886,6 +14342,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 1940526431283047180, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13924,7 +14385,7 @@ PrefabInstance:
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
       propertyPath: m_RootOrder
-      value: 52
+      value: 51
       objectReference: {fileID: 0}
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
@@ -13945,6 +14406,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Boximon Cactus (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340365139718147467, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f1ad64cafb0c8c45822c84aab0d4b29, type: 3}
@@ -14004,12 +14470,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4901207133156940, guid: 361e3d5cdb2eadb43a7e7bacd9accd86,
     type: 3}
   m_PrefabInstance: {fileID: 1728042115}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &855107587 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2261532895061361857, guid: e393773bfa4833e45a1e6e1d5d604031,
-    type: 3}
-  m_PrefabInstance: {fileID: 203911521}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &855426589
 PrefabInstance:
@@ -14233,10 +14693,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 651984576122074135, guid: 19950b0302d53f242a52fd29d37f4751,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 873342793350619243, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
       propertyPath: m_Name
       value: Boximon Treasure (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 873342793350619243, guid: 19950b0302d53f242a52fd29d37f4751,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
@@ -14276,7 +14746,7 @@ PrefabInstance:
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
       propertyPath: m_RootOrder
-      value: 51
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
@@ -14495,10 +14965,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 664020211666470459, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_Name
       value: Boximon Pi (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -14538,7 +15018,7 @@ PrefabInstance:
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_RootOrder
-      value: 43
+      value: 42
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -15009,10 +15489,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 1266422611180266890, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 4336757959210890295, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
       propertyPath: m_Name
       value: Boximon Beary (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336757959210890295, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
@@ -15052,7 +15542,7 @@ PrefabInstance:
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 54
+      value: 53
       objectReference: {fileID: 0}
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
@@ -15082,6 +15572,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Boximon Dino (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 14851788893194867, guid: 976e5c24600e1f34a9e3b9fa783d39df,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
@@ -15121,7 +15616,7 @@ PrefabInstance:
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
       propertyPath: m_RootOrder
-      value: 83
+      value: 82
       objectReference: {fileID: 0}
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
@@ -15148,6 +15643,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 7482614045602888474, guid: 976e5c24600e1f34a9e3b9fa783d39df,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 976e5c24600e1f34a9e3b9fa783d39df, type: 3}
 --- !u!1001 &892413609
@@ -15727,10 +16227,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 664020211666470459, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_Name
       value: Boximon Pi (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -15770,7 +16280,7 @@ PrefabInstance:
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_RootOrder
-      value: 47
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -15881,10 +16391,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 1266422611180266890, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 4336757959210890295, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
       propertyPath: m_Name
       value: Boximon Beary (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336757959210890295, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
@@ -15924,7 +16444,7 @@ PrefabInstance:
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 66
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
@@ -16024,6 +16544,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Dino
       objectReference: {fileID: 0}
+    - target: {fileID: 14851788893194867, guid: 976e5c24600e1f34a9e3b9fa783d39df,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16062,7 +16587,7 @@ PrefabInstance:
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
       propertyPath: m_RootOrder
-      value: 101
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
@@ -16089,6 +16614,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2048232345}
+    - target: {fileID: 7482614045602888474, guid: 976e5c24600e1f34a9e3b9fa783d39df,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 976e5c24600e1f34a9e3b9fa783d39df, type: 3}
 --- !u!1001 &946327314
@@ -16301,6 +16831,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 207170847710466725, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16339,7 +16874,7 @@ PrefabInstance:
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_RootOrder
-      value: 59
+      value: 58
       objectReference: {fileID: 0}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
@@ -16361,7 +16896,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Fiery (16)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5698239544584978436, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5698239544584978459, guid: 719126e8bf675874891338f88a633553, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 719126e8bf675874891338f88a633553, type: 3}
 --- !u!4 &959064918 stripped
 Transform:
@@ -16386,10 +16927,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 1266422611180266890, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 4336757959210890295, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
       propertyPath: m_Name
       value: Boximon Beary (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336757959210890295, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
@@ -16429,7 +16980,7 @@ PrefabInstance:
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 91
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
@@ -16465,10 +17016,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 664020211666470459, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_Name
       value: Boximon Pi (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -16508,7 +17069,7 @@ PrefabInstance:
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_RootOrder
-      value: 35
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -17061,7 +17622,7 @@ PrefabInstance:
     - target: {fileID: 4972649092045180499, guid: 9ab598b3a23711c4a9acbe0a73948eb8,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4972761483159895789, guid: 9ab598b3a23711c4a9acbe0a73948eb8,
         type: 3}
@@ -17475,10 +18036,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 664020211666470459, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_Name
       value: Boximon Pi (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -17518,7 +18089,7 @@ PrefabInstance:
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_RootOrder
-      value: 41
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -17641,6 +18212,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 207170847710466725, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17679,7 +18255,7 @@ PrefabInstance:
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
@@ -17701,7 +18277,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Fiery (23)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5698239544584978436, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5698239544584978459, guid: 719126e8bf675874891338f88a633553, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 719126e8bf675874891338f88a633553, type: 3}
 --- !u!4 &1023396125 stripped
 Transform:
@@ -18060,12 +18642,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2054360393}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1054070063 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
-    type: 3}
-  m_PrefabInstance: {fileID: 1812559252}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1054999169 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
@@ -18216,7 +18792,7 @@ PrefabInstance:
     - target: {fileID: 3424296594449065775, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 72
+      value: 71
       objectReference: {fileID: 0}
     - target: {fileID: 3424296594449065775, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
@@ -18243,12 +18819,23 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 5981716690383083581, guid: a0c4318188f1a3842b2000af18bc86a9,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 6889234526663317664, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
       propertyPath: m_Name
       value: Boximon Cyclopes 1 (6)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6889234526663317664, guid: a0c4318188f1a3842b2000af18bc86a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1056921482240274418, guid: a0c4318188f1a3842b2000af18bc86a9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a0c4318188f1a3842b2000af18bc86a9, type: 3}
 --- !u!1001 &1079764438
 PrefabInstance:
@@ -18295,7 +18882,7 @@ PrefabInstance:
     - target: {fileID: 3424296594449065775, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 50
+      value: 49
       objectReference: {fileID: 0}
     - target: {fileID: 3424296594449065775, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
@@ -18322,12 +18909,23 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 5981716690383083581, guid: a0c4318188f1a3842b2000af18bc86a9,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 6889234526663317664, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
       propertyPath: m_Name
       value: Boximon Cyclopes 1 (9)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6889234526663317664, guid: a0c4318188f1a3842b2000af18bc86a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1056921482240274418, guid: a0c4318188f1a3842b2000af18bc86a9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a0c4318188f1a3842b2000af18bc86a9, type: 3}
 --- !u!1001 &1081994605
 PrefabInstance:
@@ -18547,6 +19145,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2048232345}
+    - target: {fileID: 207170847710466725, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18585,7 +19188,7 @@ PrefabInstance:
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_RootOrder
-      value: 109
+      value: 108
       objectReference: {fileID: 0}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
@@ -18607,7 +19210,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Fiery (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5698239544584978436, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5698239544584978459, guid: 719126e8bf675874891338f88a633553, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 719126e8bf675874891338f88a633553, type: 3}
 --- !u!1 &1092745870
 GameObject:
@@ -18756,10 +19365,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 664020211666470459, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_Name
       value: Boximon Pi (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -18799,7 +19418,7 @@ PrefabInstance:
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_RootOrder
-      value: 61
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -19070,10 +19689,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 651984576122074135, guid: 19950b0302d53f242a52fd29d37f4751,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 873342793350619243, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
       propertyPath: m_Name
       value: Boximon Treasure (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 873342793350619243, guid: 19950b0302d53f242a52fd29d37f4751,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
@@ -19113,7 +19742,7 @@ PrefabInstance:
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
       propertyPath: m_RootOrder
-      value: 42
+      value: 41
       objectReference: {fileID: 0}
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
@@ -19234,7 +19863,7 @@ PrefabInstance:
     - target: {fileID: 3424296594449065775, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 45
+      value: 44
       objectReference: {fileID: 0}
     - target: {fileID: 3424296594449065775, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
@@ -19261,12 +19890,23 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 5981716690383083581, guid: a0c4318188f1a3842b2000af18bc86a9,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 6889234526663317664, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
       propertyPath: m_Name
       value: Boximon Cyclopes 1 (10)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6889234526663317664, guid: a0c4318188f1a3842b2000af18bc86a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1056921482240274418, guid: a0c4318188f1a3842b2000af18bc86a9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a0c4318188f1a3842b2000af18bc86a9, type: 3}
 --- !u!1001 &1121208146
 PrefabInstance:
@@ -19352,6 +19992,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2048232345}
+    - target: {fileID: 207170847710466725, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19390,7 +20035,7 @@ PrefabInstance:
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_RootOrder
-      value: 105
+      value: 104
       objectReference: {fileID: 0}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
@@ -19412,7 +20057,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Fiery (4)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5698239544584978436, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5698239544584978459, guid: 719126e8bf675874891338f88a633553, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 719126e8bf675874891338f88a633553, type: 3}
 --- !u!4 &1131779225 stripped
 Transform:
@@ -19878,7 +20529,7 @@ PrefabInstance:
     - target: {fileID: 3424296594449065775, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 108
+      value: 107
       objectReference: {fileID: 0}
     - target: {fileID: 3424296594449065775, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
@@ -19905,12 +20556,23 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2048232345}
+    - target: {fileID: 5981716690383083581, guid: a0c4318188f1a3842b2000af18bc86a9,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 6889234526663317664, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
       propertyPath: m_Name
       value: Boximon Cyclopes 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6889234526663317664, guid: a0c4318188f1a3842b2000af18bc86a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1056921482240274418, guid: a0c4318188f1a3842b2000af18bc86a9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a0c4318188f1a3842b2000af18bc86a9, type: 3}
 --- !u!4 &1161023398 stripped
 Transform:
@@ -20242,7 +20904,7 @@ PrefabInstance:
     - target: {fileID: 3424296594449065775, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 77
+      value: 76
       objectReference: {fileID: 0}
     - target: {fileID: 3424296594449065775, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
@@ -20269,12 +20931,23 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 5981716690383083581, guid: a0c4318188f1a3842b2000af18bc86a9,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 6889234526663317664, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
       propertyPath: m_Name
       value: Boximon Cyclopes 1 (5)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6889234526663317664, guid: a0c4318188f1a3842b2000af18bc86a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1056921482240274418, guid: a0c4318188f1a3842b2000af18bc86a9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a0c4318188f1a3842b2000af18bc86a9, type: 3}
 --- !u!4 &1180103458 stripped
 Transform:
@@ -20698,6 +21371,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Dino (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 14851788893194867, guid: 976e5c24600e1f34a9e3b9fa783d39df,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20736,7 +21414,7 @@ PrefabInstance:
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
       propertyPath: m_RootOrder
-      value: 33
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
@@ -20763,6 +21441,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 7482614045602888474, guid: 976e5c24600e1f34a9e3b9fa783d39df,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 976e5c24600e1f34a9e3b9fa783d39df, type: 3}
 --- !u!4 &1218634602 stripped
@@ -20893,6 +21576,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 207170847710466725, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20931,7 +21619,7 @@ PrefabInstance:
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_RootOrder
-      value: 76
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
@@ -20953,7 +21641,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Fiery (13)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5698239544584978436, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5698239544584978459, guid: 719126e8bf675874891338f88a633553, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 719126e8bf675874891338f88a633553, type: 3}
 --- !u!4 &1236705588 stripped
 Transform:
@@ -21264,10 +21958,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 1266422611180266890, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 4336757959210890295, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
       propertyPath: m_Name
       value: Boximon Beary (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336757959210890295, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
@@ -21307,7 +22011,7 @@ PrefabInstance:
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
@@ -21470,7 +22174,7 @@ PrefabInstance:
     - target: {fileID: 3424296594449065775, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 104
+      value: 103
       objectReference: {fileID: 0}
     - target: {fileID: 3424296594449065775, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
@@ -21497,12 +22201,23 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2048232345}
+    - target: {fileID: 5981716690383083581, guid: a0c4318188f1a3842b2000af18bc86a9,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 6889234526663317664, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
       propertyPath: m_Name
       value: Boximon Cyclopes 1 (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6889234526663317664, guid: a0c4318188f1a3842b2000af18bc86a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1056921482240274418, guid: a0c4318188f1a3842b2000af18bc86a9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a0c4318188f1a3842b2000af18bc86a9, type: 3}
 --- !u!1001 &1276539432
 PrefabInstance:
@@ -22111,7 +22826,7 @@ PrefabInstance:
     - target: {fileID: 3424296594449065775, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 107
+      value: 106
       objectReference: {fileID: 0}
     - target: {fileID: 3424296594449065775, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
@@ -22138,12 +22853,23 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2048232345}
+    - target: {fileID: 5981716690383083581, guid: a0c4318188f1a3842b2000af18bc86a9,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 6889234526663317664, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
       propertyPath: m_Name
       value: Boximon Cyclopes 1 (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6889234526663317664, guid: a0c4318188f1a3842b2000af18bc86a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1056921482240274418, guid: a0c4318188f1a3842b2000af18bc86a9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a0c4318188f1a3842b2000af18bc86a9, type: 3}
 --- !u!4 &1354492400 stripped
 Transform:
@@ -22732,6 +23458,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 1940526431283047180, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22770,7 +23501,7 @@ PrefabInstance:
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
       propertyPath: m_RootOrder
-      value: 69
+      value: 68
       objectReference: {fileID: 0}
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
@@ -22791,6 +23522,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Boximon Cactus (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340365139718147467, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f1ad64cafb0c8c45822c84aab0d4b29, type: 3}
@@ -22958,10 +23694,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 664020211666470459, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_Name
       value: Boximon Pi (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -23287,10 +24033,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 1266422611180266890, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 4336757959210890295, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
       propertyPath: m_Name
       value: Boximon Beary (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336757959210890295, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
@@ -23330,7 +24086,7 @@ PrefabInstance:
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 65
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
@@ -23512,12 +24268,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1004640464302808, guid: b9ca752c3df4dec4cadafd04fc5d444b, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1004640464302808, guid: b9ca752c3df4dec4cadafd04fc5d444b, type: 3}
       propertyPath: m_Name
       value: Assault
       objectReference: {fileID: 0}
+    - target: {fileID: 1004640464302808, guid: b9ca752c3df4dec4cadafd04fc5d444b, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000,
+        type: 0}
     - target: {fileID: 1016725509673926, guid: b9ca752c3df4dec4cadafd04fc5d444b, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -23878,6 +24639,11 @@ PrefabInstance:
       propertyPath: m_UseGravity
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 82931547174934612, guid: b9ca752c3df4dec4cadafd04fc5d444b,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 114148267733909740, guid: b9ca752c3df4dec4cadafd04fc5d444b,
         type: 3}
       propertyPath: m_Type
@@ -23933,6 +24699,11 @@ PrefabInstance:
       propertyPath: button
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 114985937948325432, guid: b9ca752c3df4dec4cadafd04fc5d444b,
+        type: 3}
+      propertyPath: dragon
+      value: 
+      objectReference: {fileID: 331098041}
     - target: {fileID: 136200420258760052, guid: b9ca752c3df4dec4cadafd04fc5d444b,
         type: 3}
       propertyPath: m_Height
@@ -24199,10 +24970,20 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2048232345}
+    - target: {fileID: 8319156543338833518, guid: 88d18ebcda4d54e4aaa1fe86b5ed6588,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 8634086252945663462, guid: 88d18ebcda4d54e4aaa1fe86b5ed6588,
         type: 3}
       propertyPath: m_Name
       value: Purple
+      objectReference: {fileID: 0}
+    - target: {fileID: 8634086252945663462, guid: 88d18ebcda4d54e4aaa1fe86b5ed6588,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8634086252946004550, guid: 88d18ebcda4d54e4aaa1fe86b5ed6588,
         type: 3}
@@ -24242,7 +25023,7 @@ PrefabInstance:
     - target: {fileID: 8634086252946004550, guid: 88d18ebcda4d54e4aaa1fe86b5ed6588,
         type: 3}
       propertyPath: m_RootOrder
-      value: 113
+      value: 111
       objectReference: {fileID: 0}
     - target: {fileID: 8634086252946004550, guid: 88d18ebcda4d54e4aaa1fe86b5ed6588,
         type: 3}
@@ -24357,6 +25138,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2048232345}
+    - target: {fileID: 207170847710466725, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24395,7 +25181,7 @@ PrefabInstance:
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_RootOrder
-      value: 102
+      value: 101
       objectReference: {fileID: 0}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
@@ -24417,7 +25203,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Fiery (6)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5698239544584978436, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5698239544584978459, guid: 719126e8bf675874891338f88a633553, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 719126e8bf675874891338f88a633553, type: 3}
 --- !u!1001 &1449534464
 PrefabInstance:
@@ -24647,6 +25439,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 207170847710466725, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24685,7 +25482,7 @@ PrefabInstance:
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_RootOrder
-      value: 82
+      value: 81
       objectReference: {fileID: 0}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
@@ -24706,6 +25503,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Boximon Fiery (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5698239544584978436, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 719126e8bf675874891338f88a633553, type: 3}
@@ -24807,6 +25609,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 207170847710466725, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24845,7 +25652,7 @@ PrefabInstance:
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_RootOrder
-      value: 39
+      value: 38
       objectReference: {fileID: 0}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
@@ -24867,7 +25674,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Fiery (18)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5698239544584978436, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5698239544584978459, guid: 719126e8bf675874891338f88a633553, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 719126e8bf675874891338f88a633553, type: 3}
 --- !u!4 &1486192433 stripped
 Transform:
@@ -24967,10 +25780,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 664020211666470459, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_Name
       value: Boximon Pi (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -25010,7 +25833,7 @@ PrefabInstance:
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_RootOrder
-      value: 40
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -25582,6 +26405,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 207170847710466725, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25620,7 +26448,7 @@ PrefabInstance:
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_RootOrder
-      value: 81
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
@@ -25642,7 +26470,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Fiery (10)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5698239544584978436, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5698239544584978459, guid: 719126e8bf675874891338f88a633553, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 719126e8bf675874891338f88a633553, type: 3}
 --- !u!4 &1536469989 stripped
 Transform:
@@ -25810,6 +26644,133 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 112972762}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1561058429
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1561058430}
+  - component: {fileID: 1561058431}
+  m_Layer: 8
+  m_Name: Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1561058430
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561058429}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2048232346}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1561058431
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561058429}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 79e35826d91b1bb47862f40a2c7ae153, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &1562043675 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4901207133156940, guid: 361e3d5cdb2eadb43a7e7bacd9accd86,
@@ -25953,10 +26914,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 664020211666470459, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_Name
       value: Boximon Pi (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -25996,7 +26967,7 @@ PrefabInstance:
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -26218,6 +27189,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 207170847710466725, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26256,7 +27232,7 @@ PrefabInstance:
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_RootOrder
-      value: 78
+      value: 77
       objectReference: {fileID: 0}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
@@ -26278,7 +27254,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Fiery (12)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5698239544584978436, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5698239544584978459, guid: 719126e8bf675874891338f88a633553, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 719126e8bf675874891338f88a633553, type: 3}
 --- !u!4 &1588774107 stripped
 Transform:
@@ -26741,10 +27723,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 664020211666470459, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_Name
       value: Boximon Pi (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -26784,7 +27776,7 @@ PrefabInstance:
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_RootOrder
-      value: 75
+      value: 74
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -26974,10 +27966,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 651984576122074135, guid: 19950b0302d53f242a52fd29d37f4751,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 873342793350619243, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
       propertyPath: m_Name
       value: Boximon Treasure (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 873342793350619243, guid: 19950b0302d53f242a52fd29d37f4751,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
@@ -27017,7 +28019,7 @@ PrefabInstance:
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
@@ -27195,6 +28197,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2048232345}
+    - target: {fileID: 1940526431283047180, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -27233,7 +28240,7 @@ PrefabInstance:
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
       propertyPath: m_RootOrder
-      value: 98
+      value: 97
       objectReference: {fileID: 0}
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
@@ -27255,6 +28262,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Cactus (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7340365139718147467, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f1ad64cafb0c8c45822c84aab0d4b29, type: 3}
 --- !u!1001 &1650815176
@@ -27269,6 +28281,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 581166866752405993, guid: bbd83ddf03119dc4f87e02c382268782,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 581166866752599326, guid: bbd83ddf03119dc4f87e02c382268782,
         type: 3}
       propertyPath: player
@@ -27279,6 +28296,41 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 581166866752599326, guid: bbd83ddf03119dc4f87e02c382268782,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
+    - target: {fileID: 581166866752599327, guid: bbd83ddf03119dc4f87e02c382268782,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.4444172
+      objectReference: {fileID: 0}
+    - target: {fileID: 581166866752599327, guid: bbd83ddf03119dc4f87e02c382268782,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 7.3801913
+      objectReference: {fileID: 0}
+    - target: {fileID: 581166866752599327, guid: bbd83ddf03119dc4f87e02c382268782,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.69849205
+      objectReference: {fileID: 0}
+    - target: {fileID: 581166866752599327, guid: bbd83ddf03119dc4f87e02c382268782,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -1.049233
+      objectReference: {fileID: 0}
+    - target: {fileID: 581166866752599327, guid: bbd83ddf03119dc4f87e02c382268782,
+        type: 3}
+      propertyPath: m_Center.x
+      value: 0.22220692
+      objectReference: {fileID: 0}
+    - target: {fileID: 581166866752599327, guid: bbd83ddf03119dc4f87e02c382268782,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2.3969848
+      objectReference: {fileID: 0}
     - target: {fileID: 581166866752686447, guid: bbd83ddf03119dc4f87e02c382268782,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -27317,7 +28369,7 @@ PrefabInstance:
     - target: {fileID: 581166866752686447, guid: bbd83ddf03119dc4f87e02c382268782,
         type: 3}
       propertyPath: m_RootOrder
-      value: 30
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 581166866752686447, guid: bbd83ddf03119dc4f87e02c382268782,
         type: 3}
@@ -27438,7 +28490,7 @@ PrefabInstance:
     - target: {fileID: 3424296594449065775, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 79
+      value: 78
       objectReference: {fileID: 0}
     - target: {fileID: 3424296594449065775, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
@@ -27465,12 +28517,23 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 5981716690383083581, guid: a0c4318188f1a3842b2000af18bc86a9,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 6889234526663317664, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
       propertyPath: m_Name
       value: Boximon Cyclopes 1 (4)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6889234526663317664, guid: a0c4318188f1a3842b2000af18bc86a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1056921482240274418, guid: a0c4318188f1a3842b2000af18bc86a9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a0c4318188f1a3842b2000af18bc86a9, type: 3}
 --- !u!4 &1659206550 stripped
 Transform:
@@ -27495,10 +28558,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 1266422611180266890, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 4336757959210890295, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
       propertyPath: m_Name
       value: Boximon Beary (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336757959210890295, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
@@ -27538,7 +28611,7 @@ PrefabInstance:
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
@@ -27574,6 +28647,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 1940526431283047180, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -27633,6 +28711,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Boximon Cactus (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340365139718147467, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f1ad64cafb0c8c45822c84aab0d4b29, type: 3}
@@ -27720,10 +28803,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 664020211666470459, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_Name
       value: Boximon Pi (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -27763,7 +28856,7 @@ PrefabInstance:
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_RootOrder
-      value: 67
+      value: 66
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -28408,6 +29501,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Dino (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 14851788893194867, guid: 976e5c24600e1f34a9e3b9fa783d39df,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -28446,7 +29544,7 @@ PrefabInstance:
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
@@ -28473,6 +29571,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 7482614045602888474, guid: 976e5c24600e1f34a9e3b9fa783d39df,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 976e5c24600e1f34a9e3b9fa783d39df, type: 3}
 --- !u!1001 &1740568032
@@ -28916,10 +30019,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 1266422611180266890, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 4336757959210890295, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
       propertyPath: m_Name
       value: Boximon Beary (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336757959210890295, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
@@ -28959,7 +30072,7 @@ PrefabInstance:
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 31
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
@@ -29462,10 +30575,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 651984576122074135, guid: 19950b0302d53f242a52fd29d37f4751,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 873342793350619243, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
       propertyPath: m_Name
       value: Boximon Treasure
+      objectReference: {fileID: 0}
+    - target: {fileID: 873342793350619243, guid: 19950b0302d53f242a52fd29d37f4751,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
@@ -29505,7 +30628,7 @@ PrefabInstance:
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
       propertyPath: m_RootOrder
-      value: 92
+      value: 91
       objectReference: {fileID: 0}
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
@@ -29656,85 +30779,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 843859442}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1812559252
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 332366637}
-    m_Modifications:
-    - target: {fileID: 207170847710466725, guid: 719126e8bf675874891338f88a633553,
-        type: 3}
-      propertyPath: playerTransform
-      value: 
-      objectReference: {fileID: 2048232346}
-    - target: {fileID: 207170847710466725, guid: 719126e8bf675874891338f88a633553,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 2048232345}
-    - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 496.73828
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 122.89575
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1274.8975
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.13731201
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.85713667
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.39968935
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.29446658
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 111
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5698239544584978436, guid: 719126e8bf675874891338f88a633553,
-        type: 3}
-      propertyPath: m_Name
-      value: Boximon Fiery
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 719126e8bf675874891338f88a633553, type: 3}
 --- !u!4 &1815765001 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4509784364034244, guid: 7f5abae2220262d448d1291734de367b,
@@ -29831,6 +30875,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 207170847710466725, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29869,7 +30918,7 @@ PrefabInstance:
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_RootOrder
-      value: 71
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
@@ -29891,7 +30940,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Fiery (14)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5698239544584978436, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5698239544584978459, guid: 719126e8bf675874891338f88a633553, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 719126e8bf675874891338f88a633553, type: 3}
 --- !u!4 &1829472731 stripped
 Transform:
@@ -30513,10 +31568,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 664020211666470459, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_Name
       value: Boximon Pi (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -30556,7 +31621,7 @@ PrefabInstance:
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -31051,10 +32116,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 651984576122074135, guid: 19950b0302d53f242a52fd29d37f4751,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 873342793350619243, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
       propertyPath: m_Name
       value: Boximon Treasure (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 873342793350619243, guid: 19950b0302d53f242a52fd29d37f4751,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
@@ -31094,7 +32169,7 @@ PrefabInstance:
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
       propertyPath: m_RootOrder
-      value: 34
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
@@ -31136,6 +32211,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 207170847710466725, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31174,7 +32254,7 @@ PrefabInstance:
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
@@ -31196,7 +32276,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Fiery (20)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5698239544584978436, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5698239544584978459, guid: 719126e8bf675874891338f88a633553, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 719126e8bf675874891338f88a633553, type: 3}
 --- !u!1001 &1913102462
 PrefabInstance:
@@ -31215,10 +32301,20 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2048232345}
+    - target: {fileID: 1266422611180266890, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 4336757959210890295, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
       propertyPath: m_Name
       value: Boximon Beary
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336757959210890295, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
@@ -31258,7 +32354,7 @@ PrefabInstance:
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 95
+      value: 94
       objectReference: {fileID: 0}
     - target: {fileID: 6337547549579131365, guid: 3ff9600cb98551c4884c5f7a9fae16d1,
         type: 3}
@@ -31459,10 +32555,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 651984576122074135, guid: 19950b0302d53f242a52fd29d37f4751,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 873342793350619243, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
       propertyPath: m_Name
       value: Boximon Treasure (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 873342793350619243, guid: 19950b0302d53f242a52fd29d37f4751,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
@@ -31648,6 +32754,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2048232345}
+    - target: {fileID: 207170847710466725, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31686,7 +32797,7 @@ PrefabInstance:
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_RootOrder
-      value: 106
+      value: 105
       objectReference: {fileID: 0}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
@@ -31708,7 +32819,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Fiery (3)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5698239544584978436, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5698239544584978459, guid: 719126e8bf675874891338f88a633553, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 719126e8bf675874891338f88a633553, type: 3}
 --- !u!4 &1945966949 stripped
 Transform:
@@ -31864,6 +32981,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Dino (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 14851788893194867, guid: 976e5c24600e1f34a9e3b9fa783d39df,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31902,7 +33024,7 @@ PrefabInstance:
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
       propertyPath: m_RootOrder
-      value: 44
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 564878212402713247, guid: 976e5c24600e1f34a9e3b9fa783d39df,
         type: 3}
@@ -31929,6 +33051,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 7482614045602888474, guid: 976e5c24600e1f34a9e3b9fa783d39df,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 976e5c24600e1f34a9e3b9fa783d39df, type: 3}
 --- !u!4 &1971467605 stripped
@@ -31960,10 +33087,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 664020211666470459, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_Name
       value: Boximon Pi (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -32003,7 +33140,7 @@ PrefabInstance:
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_RootOrder
-      value: 68
+      value: 67
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -32039,10 +33176,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 664020211666470459, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_Name
       value: Boximon Pi (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -32082,7 +33229,7 @@ PrefabInstance:
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_RootOrder
-      value: 73
+      value: 72
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -32118,6 +33265,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 1940526431283047180, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -32156,7 +33308,7 @@ PrefabInstance:
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
       propertyPath: m_RootOrder
-      value: 64
+      value: 63
       objectReference: {fileID: 0}
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
@@ -32177,6 +33329,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Boximon Cactus (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340365139718147467, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f1ad64cafb0c8c45822c84aab0d4b29, type: 3}
@@ -32237,7 +33394,7 @@ PrefabInstance:
     - target: {fileID: 3424296594449065775, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 3424296594449065775, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
@@ -32264,12 +33421,23 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 5981716690383083581, guid: a0c4318188f1a3842b2000af18bc86a9,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 6889234526663317664, guid: a0c4318188f1a3842b2000af18bc86a9,
         type: 3}
       propertyPath: m_Name
       value: Boximon Cyclopes 1 (12)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6889234526663317664, guid: a0c4318188f1a3842b2000af18bc86a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1056921482240274418, guid: a0c4318188f1a3842b2000af18bc86a9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a0c4318188f1a3842b2000af18bc86a9, type: 3}
 --- !u!4 &1991439508 stripped
 Transform:
@@ -32711,6 +33879,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2048232345}
+    - target: {fileID: 1940526431283047180, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -32749,7 +33922,7 @@ PrefabInstance:
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
       propertyPath: m_RootOrder
-      value: 99
+      value: 98
       objectReference: {fileID: 0}
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
@@ -32770,6 +33943,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Boximon Cactus
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340365139718147467, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f1ad64cafb0c8c45822c84aab0d4b29, type: 3}
@@ -33249,10 +34427,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 8319156543338833518, guid: 88d18ebcda4d54e4aaa1fe86b5ed6588,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 8634086252945663462, guid: 88d18ebcda4d54e4aaa1fe86b5ed6588,
         type: 3}
       propertyPath: m_Name
       value: Purple (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8634086252945663462, guid: 88d18ebcda4d54e4aaa1fe86b5ed6588,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8634086252946004550, guid: 88d18ebcda4d54e4aaa1fe86b5ed6588,
         type: 3}
@@ -33292,7 +34480,7 @@ PrefabInstance:
     - target: {fileID: 8634086252946004550, guid: 88d18ebcda4d54e4aaa1fe86b5ed6588,
         type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 8634086252946004550, guid: 88d18ebcda4d54e4aaa1fe86b5ed6588,
         type: 3}
@@ -33594,10 +34782,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 664020211666470459, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_Name
       value: Boximon Pi (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113030124990719866, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -33637,7 +34835,7 @@ PrefabInstance:
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
       propertyPath: m_RootOrder
-      value: 46
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 5158713131926934247, guid: 115744cd54c1ed3448e6b6e5b9d9f470,
         type: 3}
@@ -33890,6 +35088,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 207170847710466725, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33928,7 +35131,7 @@ PrefabInstance:
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_RootOrder
-      value: 36
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
@@ -33950,7 +35153,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Fiery (19)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5698239544584978436, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5698239544584978459, guid: 719126e8bf675874891338f88a633553, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 719126e8bf675874891338f88a633553, type: 3}
 --- !u!4 &2053616311 stripped
 Transform:
@@ -34107,6 +35316,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2048232345}
+    - target: {fileID: 207170847710466725, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -34145,7 +35359,7 @@ PrefabInstance:
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_RootOrder
-      value: 103
+      value: 102
       objectReference: {fileID: 0}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
@@ -34167,7 +35381,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Fiery (5)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5698239544584978436, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5698239544584978459, guid: 719126e8bf675874891338f88a633553, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 719126e8bf675874891338f88a633553, type: 3}
 --- !u!1001 &2067283180
 PrefabInstance:
@@ -34369,10 +35589,20 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 651984576122074135, guid: 19950b0302d53f242a52fd29d37f4751,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 873342793350619243, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
       propertyPath: m_Name
       value: Boximon Treasure (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 873342793350619243, guid: 19950b0302d53f242a52fd29d37f4751,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
@@ -34412,7 +35642,7 @@ PrefabInstance:
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7649598376703101150, guid: 19950b0302d53f242a52fd29d37f4751,
         type: 3}
@@ -34749,6 +35979,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 207170847710466725, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -34787,7 +36022,7 @@ PrefabInstance:
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
       propertyPath: m_RootOrder
-      value: 90
+      value: 89
       objectReference: {fileID: 0}
     - target: {fileID: 1165334768492678773, guid: 719126e8bf675874891338f88a633553,
         type: 3}
@@ -34809,7 +36044,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boximon Fiery (8)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5698239544584978436, guid: 719126e8bf675874891338f88a633553,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5698239544584978459, guid: 719126e8bf675874891338f88a633553, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 719126e8bf675874891338f88a633553, type: 3}
 --- !u!1001 &2120714046
 PrefabInstance:
@@ -34889,6 +36130,11 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2048232346}
+    - target: {fileID: 1940526431283047180, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 8173605c1d1aa004d8b6b0ece6ae73da, type: 3}
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -34927,7 +36173,7 @@ PrefabInstance:
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
       propertyPath: m_RootOrder
-      value: 62
+      value: 61
       objectReference: {fileID: 0}
     - target: {fileID: 2094320350713944291, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
         type: 3}
@@ -34948,6 +36194,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Boximon Cactus (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340365139718147467, guid: 5f1ad64cafb0c8c45822c84aab0d4b29,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f1ad64cafb0c8c45822c84aab0d4b29, type: 3}
@@ -35062,11 +36313,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Health Bar
       objectReference: {fileID: 0}
+    - target: {fileID: 22475965669323365, guid: ee6401608ac7a204f8370391ff1149f2,
+        type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 22475965669323366, guid: ee6401608ac7a204f8370391ff1149f2,
         type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 2048232345}
+    - target: {fileID: 22475965669323366, guid: ee6401608ac7a204f8370391ff1149f2,
+        type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 265925508}
     - target: {fileID: 22475965669323367, guid: ee6401608ac7a204f8370391ff1149f2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -35190,12 +36451,12 @@ PrefabInstance:
     - target: {fileID: 22475967127036206, guid: ee6401608ac7a204f8370391ff1149f2,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.413
       objectReference: {fileID: 0}
     - target: {fileID: 22475967127036206, guid: ee6401608ac7a204f8370391ff1149f2,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee6401608ac7a204f8370391ff1149f2, type: 3}

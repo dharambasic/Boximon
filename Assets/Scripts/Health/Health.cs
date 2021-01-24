@@ -7,6 +7,7 @@ public class Health : MonoBehaviour, IEntity
 
     public int currentHealth = 0;
     public int maxHealth = 100;
+    
 
     public HealthBar1 healthBar;
     public HealthBar1 healthBar1;
@@ -16,6 +17,7 @@ public class Health : MonoBehaviour, IEntity
     void Start()
     {
         currentHealth = maxHealth;
+        InvokeRepeating("Regeneration", 1f, 5f);
     }
 
     // Update is called once per frame
@@ -23,6 +25,7 @@ public class Health : MonoBehaviour, IEntity
     {
         healthBar.SetHealth(currentHealth);
         healthBar1.SetHealth(currentHealth);
+     
     }
 
 
@@ -32,6 +35,13 @@ public class Health : MonoBehaviour, IEntity
 
        
 
+        healthBar.SetHealth(currentHealth);
+        healthBar1.SetHealth(currentHealth);
+    }
+
+    public void Regeneration()
+    {
+        currentHealth += 5;
         healthBar.SetHealth(currentHealth);
         healthBar1.SetHealth(currentHealth);
     }
