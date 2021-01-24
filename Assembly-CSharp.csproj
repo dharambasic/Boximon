@@ -59,7 +59,6 @@
      <Compile Include="Assets\Scripts\Casings_&amp;_Projectiles\CasingScript.cs" />
      <Compile Include="Assets\Scripts\Casings_&amp;_Projectiles\GrenadeScript.cs" />
      <Compile Include="Assets\Scripts\DebrisScript.cs" />
-     <Compile Include="Assets\Scripts\Enemy\SC_EnemySpawner.cs" />
      <Compile Include="Assets\Scripts\Enemy\SC_InterfaceMenager.cs" />
      <Compile Include="Assets\Scripts\Enemy\SC_NPCEnemy.cs" />
      <Compile Include="Assets\Scripts\Explosions_&amp;_Impacts\ExplosionScript.cs" />

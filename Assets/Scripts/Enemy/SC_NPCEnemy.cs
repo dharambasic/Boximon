@@ -9,6 +9,7 @@ public class SC_NPCEnemy : MonoBehaviour, IEntity
     public float attackDistance = 3f;
     public float movementSpeed = 4f;
     public float npcHP = 100;
+    public Health player;
     //How much damage will npc deal to the player
     public float npcDamage = 5;
     public float attackRate = 0.5f;
@@ -22,7 +23,7 @@ public class SC_NPCEnemy : MonoBehaviour, IEntity
     
     public Transform playerTransform;
     [HideInInspector]
-    public SC_EnemySpawner es;
+   //public SC_EnemySpawner es;
     NavMeshAgent agent;
     float nextAttackTime = 0;
     Rigidbody r;
@@ -66,6 +67,19 @@ public class SC_NPCEnemy : MonoBehaviour, IEntity
 
          
         }
+
+        if (player.currentHealth <= 0)
+        {
+
+            LevelMenager man = GameObject.Find("LevelMenager").GetComponent<LevelMenager>();
+            man.LoadLevel("Lose");
+            Cursor.lockState = CursorLockMode.Confined;
+            Cursor.visible = true;
+
+
+
+        }
+
         //Move towardst he player
 
         if (Vector3.Distance(playerTransform.transform.position, transform.transform.position) <= range) {
@@ -111,4 +125,6 @@ public class SC_NPCEnemy : MonoBehaviour, IEntity
 
         }
     }
+
+
 }
