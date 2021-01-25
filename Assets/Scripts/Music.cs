@@ -3,6 +3,7 @@
 public class Music : MonoBehaviour
 {
     private AudioSource _audioSource;
+   
     private void Awake()
     {
         DontDestroyOnLoad(transform.gameObject);
@@ -12,7 +13,11 @@ public class Music : MonoBehaviour
     public void PlayMusic()
     {
         if (_audioSource.isPlaying) return;
-        _audioSource.Play();
+        
+
+        
+            _audioSource.Play();
+        
     }
 
     public void StopMusic()

@@ -206,6 +206,8 @@ using UnityEngine.UI;
         {
             LevelMenager man = GameObject.Find("LevelMenager").GetComponent<LevelMenager>();
             man.LoadLevel("Win");
+            Cursor.lockState = CursorLockMode.Confined;
+            Cursor.visible = true;
         }
 
        

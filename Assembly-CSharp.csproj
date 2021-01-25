@@ -72,6 +72,7 @@
      <Compile Include="Assets\Scripts\LowPolyWater.cs" />
      <Compile Include="Assets\Scripts\Misc\LookAtCamera.cs" />
      <Compile Include="Assets\Scripts\Music.cs" />
+     <Compile Include="Assets\Scripts\Sound.cs" />
      <Compile Include="Assets\Scripts\TargetScript.cs" />
      <Compile Include="Assets\Scripts\Weapon_Scripts\AutomaticGunScriptLPFP.cs" />
      <Compile Include="Assets\Scripts\Weapon_Scripts\HandgunScriptLPFP.cs" />
