@@ -71,6 +71,8 @@ using UnityEngine.UI;
     public GameObject Pistol;
     public GameObject Canvas;
     public SC_NPCEnemy dragon;
+    
+   
    
     bool paused = false;
 
@@ -96,7 +98,10 @@ using UnityEngine.UI;
             Cursor.visible = false;
             ValidateRotationRestriction();
         Canvas.gameObject.SetActive(false);
-        GameObject.FindGameObjectWithTag("Music").GetComponent<Music>().StopMusic();
+       
+
+            GameObject.FindGameObjectWithTag("Music").GetComponent<Music>().StopMusic();
+        
     }
 			
         private Transform AssignCharactersCamera()

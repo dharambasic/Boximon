@@ -41,9 +41,12 @@ public class Health : MonoBehaviour, IEntity
 
     public void Regeneration()
     {
-        currentHealth += 5;
-        healthBar.SetHealth(currentHealth);
-        healthBar1.SetHealth(currentHealth);
+
+        if (currentHealth < 100) {
+            currentHealth += 5;
+            healthBar.SetHealth(currentHealth);
+            healthBar1.SetHealth(currentHealth);
+           }
     }
 
     
