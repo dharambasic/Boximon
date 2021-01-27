@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-// ----- Low Poly FPS Pack Free Version -----
+
 public class BulletScript : MonoBehaviour {
 
 	[Range(5, 100)]
@@ -20,55 +20,28 @@ public class BulletScript : MonoBehaviour {
 
 	private void Start () 
 	{
-		//Start destroy timer
+		//Startanje timera uništenja metka
 		StartCoroutine (DestroyAfter ());
 	}
 
-	//If the bullet collides with anything
+	//funkcija za provjeru dal se metak sudara s objektima
 	private void OnCollisionEnter (Collision collision) 
 	{
-		//If destroy on impact is false, start 
-		//coroutine with random destroy timer
+		//provjerava se ako je destroy on impact lažan, ako jest, počinje uništenje metaka
 		if (!destroyOnImpact) 
 		{
 			StartCoroutine (DestroyTimer ());
 		}
-		//Otherwise, destroy bullet on impact
+		//ako je istinit, uništava se metak
 		else 
 		{
 			Destroy (gameObject);
 		}
 
-		//If bullet collides with "Metal" tag
-		if (collision.transform.tag == "Metal") 
-		{
-			//Instantiate random impact prefab from array
-			Instantiate (metalImpactPrefabs [Random.Range 
-				(0, metalImpactPrefabs.Length)], transform.position, 
-				Quaternion.LookRotation (collision.contacts [0].normal));
-			//Destroy bullet object
-			Destroy(gameObject);
-		}
+		
 
-		//If bullet collides with "Target" tag
-		if (collision.transform.tag == "Target") 
-		{
-			//Toggle "isHit" on target object
-			collision.transform.gameObject.GetComponent
-				<TargetScript>().isHit = true;
-			//Destroy bullet object
-			Destroy(gameObject);
-		}
-			
-		//If bullet collides with "ExplosiveBarrel" tag
-		if (collision.transform.tag == "ExplosiveBarrel") 
-		{
-			//Toggle "explode" on explosive barrel object
-			collision.transform.gameObject.GetComponent
-				<ExplosiveBarrelScript>().explode = true;
-			//Destroy bullet object
-			Destroy(gameObject);
-		}
+	
+	
 
 		if (collision.gameObject.CompareTag("Enemy")) {
 
@@ -80,19 +53,18 @@ public class BulletScript : MonoBehaviour {
 
 	private IEnumerator DestroyTimer () 
 	{
-		//Wait random time based on min and max values
+		//Čekanje nasumičnog vremena za uništenje objekta
 		yield return new WaitForSeconds
 			(Random.Range(minDestroyTime, maxDestroyTime));
-		//Destroy bullet object
+		//Uništenje metka
 		Destroy(gameObject);
 	}
 
 	private IEnumerator DestroyAfter () 
 	{
-		//Wait for set amount of time
+		//Ćekanje određenog vremena
 		yield return new WaitForSeconds (destroyAfter);
-		//Destroy bullet object
+		//Uništenje metka
 		Destroy (gameObject);
 	}
 }
-// ----- Low Poly FPS Pack Free Version -----

@@ -79,7 +79,7 @@ using UnityEngine.UI;
         private readonly RaycastHit[] _groundCastResults = new RaycastHit[8];
         private readonly RaycastHit[] _wallCastResults = new RaycastHit[8];
 
-        /// Initializes the FpsController on start.
+        /// inicijalizacija kontrolera na startu
         private void Start()
         {
             _rigidbody = GetComponent<Rigidbody>();
@@ -99,8 +99,8 @@ using UnityEngine.UI;
             ValidateRotationRestriction();
         Canvas.gameObject.SetActive(false);
        
-
-            GameObject.FindGameObjectWithTag("Music").GetComponent<Music>().StopMusic();
+        //zaustavljanje muzike iz start scene u game scenu
+          //  GameObject.FindGameObjectWithTag("Music").GetComponent<Music>().StopMusic();
         
     }
 			
@@ -117,8 +117,7 @@ using UnityEngine.UI;
         return arms1;
     }
 
-    /// Clamps <see cref="minVerticalAngle"/> and <see cref="maxVerticalAngle"/> to valid values and
-    /// ensures that <see cref="minVerticalAngle"/> is less than <see cref="maxVerticalAngle"/>.
+//optimizacija kuta miša
     private void ValidateRotationRestriction()
         {
             minVerticalAngle = ClampRotationRestriction(minVerticalAngle, -90, 90);
@@ -138,7 +137,7 @@ using UnityEngine.UI;
             return Mathf.Clamp(rotationRestriction, min, max);
         }
 			
-        /// Checks if the character is on the ground.
+        /// provjerava dali je igrač na zemlji
         private void OnCollisionStay()
         {
             var bounds = _collider.bounds;
@@ -155,16 +154,17 @@ using UnityEngine.UI;
             _isGrounded = true;
         }
 			
-        /// Processes the character movement and the camera rotation every fixed framerate frame.
+        /// rotira kameru prema kretnji igrača.
         private void FixedUpdate()
         {
-            // FixedUpdate is used instead of Update because this code is dealing with physics and smoothing.
+            
             RotateCameraAndCharacter();
             MoveCharacter();
             _isGrounded = false;
         }
 			
-        /// Moves the camera to the character, processes jumping and plays sounds every frame.
+        /// Pomakne kameru prema igraču i brine se o zvukovima
+        /// Ako se pritisne tipka Escape, aktivira se Canvas s Pause menijem
         private void Update()
         {
 			arms.position = transform.position + transform.TransformVector(armPosition);
@@ -207,6 +207,7 @@ using UnityEngine.UI;
             }
         }
 
+        //provjerava ako je zadnji "Boss" ubijen, čim je ubijen učitava se Win scena
         if(dragon.npcHP <= 0)
         {
             LevelMenager man = GameObject.Find("LevelMenager").GetComponent<LevelMenager>();
@@ -219,7 +220,7 @@ using UnityEngine.UI;
     }
 
    
-
+        //Rotacija kamere prema kretanju karaktera
         private void RotateCameraAndCharacter()
         {
             var rotationX = _rotationX.Update(RotationXRaw, rotationSmoothness);
@@ -280,13 +281,13 @@ using UnityEngine.UI;
 
             return angleDegrees;
         }
-
+    //Funkcija kretanja igrača
         private void MoveCharacter()
         {
             var direction = new Vector3(input.Move, 0f, input.Strafe).normalized;
             var worldDirection = transform.TransformDirection(direction);
             var velocity = worldDirection * (input.Run ? runningSpeed : walkingSpeed);
-            //Checks for collisions so that the character does not stuck when jumping against walls.
+            //provjerava koliziju s objektima
             var intersectsWall = CheckCollisionsWithWalls(velocity);
             if (intersectsWall)
             {
@@ -322,14 +323,14 @@ using UnityEngine.UI;
 
             return true;
         }
-
+    //funkcija za skakanje karaktera
         private void Jump()
         {
             if (!_isGrounded || !input.Jump) return;
             _isGrounded = true;
             _rigidbody.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
         }
-
+    // zvuk koraka
         private void PlayFootstepSounds()
         {
             if (_isGrounded && _rigidbody.velocity.sqrMagnitude > 0.1f)

@@ -5,7 +5,7 @@ public class Music : MonoBehaviour
     private AudioSource _audioSource;
     
  
-   
+   //funkcija za sviranje iste glazbe na više različitim scenama
     private void Awake()
     {
         DontDestroyOnLoad(transform.gameObject);

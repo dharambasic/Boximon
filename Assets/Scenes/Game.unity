@@ -5252,18 +5252,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &289661205
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 289661202}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36ae2b1fd8c85ba4d8d89d2b3f51b698, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &292042748
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8751,7 +8739,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 499758045}
-  - component: {fileID: 499758046}
   m_Layer: 0
   m_Name: NavMesh
   m_TagString: Untagged
@@ -8773,18 +8760,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &499758046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499758044}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &499897663
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22572,18 +22547,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.32717484, y: 0.32098576, z: 0.3548261}
   m_Center: {x: -0.24392131, y: -0.7317429, z: 1.2441756}
---- !u!114 &1352078798
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1352078794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36ae2b1fd8c85ba4d8d89d2b3f51b698, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1353850792 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6625984507259324429, guid: ccebfc242bed46749a5dcef87dd83423,
@@ -23091,12 +23054,12 @@ Terrain:
   m_Enabled: 1
   serializedVersion: 6
   m_TerrainData: {fileID: 15600000, guid: 9937a5a82848c3b4b9bf1fe5b8be7985, type: 2}
-  m_TreeDistance: 1275
-  m_TreeBillboardDistance: 337
-  m_TreeCrossFadeLength: 12.8
-  m_TreeMaximumFullLODCount: 361
-  m_DetailObjectDistance: 175
-  m_DetailObjectDensity: 0.573
+  m_TreeDistance: 1144
+  m_TreeBillboardDistance: 169
+  m_TreeCrossFadeLength: 50.3
+  m_TreeMaximumFullLODCount: 1812
+  m_DetailObjectDistance: 98
+  m_DetailObjectDensity: 1
   m_HeightmapPixelError: 5
   m_SplatMapDistance: 1024
   m_HeightmapMaximumLOD: 0
@@ -23106,7 +23069,7 @@ Terrain:
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
   m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
-  m_BakeLightProbesForTrees: 1
+  m_BakeLightProbesForTrees: 0
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
   m_ScaleInLightmap: 0.8
@@ -24513,6 +24476,11 @@ PrefabInstance:
       propertyPath: dragon
       value: 
       objectReference: {fileID: 94100180}
+    - target: {fileID: 114985937948325432, guid: b9ca752c3df4dec4cadafd04fc5d444b,
+        type: 3}
+      propertyPath: mouseSensitivity
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 136200420258760052, guid: b9ca752c3df4dec4cadafd04fc5d444b,
         type: 3}
       propertyPath: m_Height
@@ -26411,7 +26379,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 79e35826d91b1bb47862f40a2c7ae153, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.565
   m_Pitch: 1
   Loop: 0
   Mute: 0

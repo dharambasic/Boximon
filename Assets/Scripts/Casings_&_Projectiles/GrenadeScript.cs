@@ -1,23 +1,23 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-// ----- Low Poly FPS Pack Free Version -----
+
 public class GrenadeScript : MonoBehaviour {
 
 	[Header("Timer")]
-	//Time before the grenade explodes
+
 	[Tooltip("Time before the grenade explodes")]
 	public float grenadeTimer = 5.0f;
 
 	[Header("Explosion Prefabs")]
-	//Explosion prefab
+
 	public Transform explosionPrefab;
 
 	[Header("Explosion Options")]
-	//Radius of the explosion
+	
 	[Tooltip("The radius of the explosion force")]
 	public float radius = 25.0F;
-	//Intensity of the explosion
+
 	[Tooltip("The intensity of the explosion force")]
 	public float power = 350.0F;
 
@@ -33,25 +33,25 @@ public class GrenadeScript : MonoBehaviour {
 
 	private void Awake () 
 	{
-		//Generate random throw force
-		//based on min and max values
+		//Nasumična sila bacanja
+	
 		throwForce = Random.Range
 			(minimumForce, maximumForce);
 
-		//Random rotation of the grenade
+		//Nasumična rotacija granate
 		GetComponent<Rigidbody>().AddRelativeTorque 
-		   (Random.Range(500, 1500), //X Axis
-			Random.Range(0,0), 		 //Y Axis
-			Random.Range(0,0)  		 //Z Axis
+		   (Random.Range(500, 1500), 
+			Random.Range(0,0), 		 
+			Random.Range(0,0)  		 
 			* Time.deltaTime * 5000);
 	}
 
 	private void Start () 
 	{
-		//Launch the projectile forward by adding force to it at start
+		//Bacanje granate nasumičnom silom
 		GetComponent<Rigidbody>().AddForce(gameObject.transform.forward * throwForce);
 
-		//Start the explosion timer
+		//Startanje timera eksplozije
 		StartCoroutine (ExplosionTimer ());
 	}
 
@@ -60,49 +60,44 @@ public class GrenadeScript : MonoBehaviour {
 
 	private IEnumerator ExplosionTimer () 
 	{
-		//Wait set amount of time
+		//Čekanje isteka timera eksplozije
 		yield return new WaitForSeconds(grenadeTimer);
 
-		//Raycast downwards to check ground
+		//Raycast kontrolira ako je granata pala na zemlju
 		RaycastHit checkGround;
 		if (Physics.Raycast(transform.position, Vector3.down, out checkGround, 50))
 		{
-			//Instantiate metal explosion prefab on ground
+			
 			Instantiate (explosionPrefab, checkGround.point, 
 				Quaternion.FromToRotation (Vector3.forward, checkGround.normal)); 
 		}
 
 		//Explosion force
 		Vector3 explosionPos = transform.position;
-		//Use overlapshere to check for nearby colliders
+		//Korištenje overlasphere funkcije za provjeru kolizije
 		Collider[] colliders = Physics.OverlapSphere(explosionPos, radius);
 		foreach (Collider hit in colliders) {
 			Rigidbody rb = hit.GetComponent<Rigidbody> ();
 
-			//Add force to nearby rigidbodies
+			//Dodavanje sile bližnjim neprijateljima
 			if (rb != null)
 				rb.AddExplosionForce (power * 5, explosionPos, radius, 3.0F);
 			
-			//If the explosion hits "Target" tag and isHit is false
+			//Provjera ako je eksplozija oštetila neprijatelja
 			if (hit.GetComponent<Collider>().tag == "Enemy")
 			     
 			{
-				//Animate the target 		//Toggle "isHit" on target object
+						//oduzimanje zdravlja neprijatelja
 				hit.gameObject.GetComponent<SC_NPCEnemy>().ApplyDamage(100);
 			}
 
-			//If the explosion hits "ExplosiveBarrel" tag
-			if (hit.GetComponent<Collider>().tag == "ExplosiveBarrel") 
-			{
-				//Toggle "explode" on explosive barrel object
-				hit.gameObject.GetComponent<ExplosiveBarrelScript> ().explode = true;
-			}
+			
+			
 		}
 
-		//Destroy the grenade object on explosion
+		//Uništavanje granate nakon eksplozije
 		Destroy (gameObject);
 	}
 
 	
 }
-// ----- Low Poly FPS Pack Free Version -----

@@ -10,14 +10,14 @@ public class SC_NPCEnemy : MonoBehaviour, IEntity
     public float movementSpeed = 4f;
     public float npcHP = 100;
     public Health player;
-    //How much damage will npc deal to the player
+    
     public float npcDamage = 5;
     public float attackRate = 0.5f;
     public Transform firePoint;
     public GameObject npcDeadPrefab;
     public float range = 20f;
 
-    //public AudioSource audio;
+
     public AudioClip dead;
     public float volume = 100;
   
@@ -25,12 +25,12 @@ public class SC_NPCEnemy : MonoBehaviour, IEntity
     
     public Transform playerTransform;
     [HideInInspector]
-   //public SC_EnemySpawner es;
+  
     NavMeshAgent agent;
     float nextAttackTime = 0;
     Rigidbody r;
 
-    // Start is called before the first frame update
+ //Postavljanje Agenta
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -39,7 +39,7 @@ public class SC_NPCEnemy : MonoBehaviour, IEntity
         r = GetComponent<Rigidbody>();
         r.useGravity = false;
         r.isKinematic = true;
-       // audio = GetComponent<AudioSource>();
+      
         
      
      
@@ -56,7 +56,7 @@ public class SC_NPCEnemy : MonoBehaviour, IEntity
             {
                 nextAttackTime = Time.time + attackRate;
 
-                //Attack
+               //Provjerava ako je metak pogodio neprijatelja, ako je tvrdnja istinita, neprijatelj gubi zdravlje
                 RaycastHit hit;
                 if (Physics.Raycast(firePoint.position, firePoint.forward, out hit, attackDistance))
                 {
@@ -75,7 +75,8 @@ public class SC_NPCEnemy : MonoBehaviour, IEntity
         }
 
      
-
+        //provjerava ako je zdravlje igrača manje ili jednako 0
+        //učitava se lose scena
         if (player.currentHealth <= 0)
         {
 
@@ -88,7 +89,8 @@ public class SC_NPCEnemy : MonoBehaviour, IEntity
 
         }
 
-        //Move towardst he player
+        //Provjeravanje ako je igrač u dosegu igrača, ako jest počne se kretati prema njemu
+       
 
         if (Vector3.Distance(playerTransform.transform.position, transform.transform.position) <= range) {
 
@@ -96,34 +98,37 @@ public class SC_NPCEnemy : MonoBehaviour, IEntity
             agent.destination = playerTransform.position;
         }
     
-        //Always look at player
+        //Pogled na igrača
         transform.LookAt(new Vector3(playerTransform.transform.position.x, transform.position.y, playerTransform.position.z));
-        //Gradually reduce rigidbody velocity if the force was applied by the bullet
+        
         r.velocity *= 0.99f;
     }
 
 
-
+    //funkcija za oduzimanje zdravlja neprijatelja
     public void ApplyDamage(float points)
     {
         npcHP -= points;
         if (npcHP <= 0)
         {
             
-            //Destroy the NPC
+            //Uništavanje neprijatelja
             GameObject npcDead = Instantiate(npcDeadPrefab, transform.position, transform.rotation);
             
 
-            //Slightly bounce the npc dead prefab up
+            //Padanje mrtvog prefaba neprijatelja prema dolje
             npcDead.GetComponent<Rigidbody>().velocity = (-(playerTransform.position - transform.position).normalized * 8) + new Vector3(0, 5, 0);
             Destroy(npcDead, 10);
-            AudioSource.PlayClipAtPoint(dead, transform.position, volume);
-          
+            //Zvuk smrti neprijatelja
+            AudioSource.PlayClipAtPoint(dead, transform.position, 10f);
+          //Uništavanje neprijatelja
             Destroy(gameObject);
             
         }
     }
 
+
+    //Funkcija za provjeravanje kolizije s igračem, ako je kolizija istinita, oduzima igraču zdravlje
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Player"))

@@ -13,22 +13,25 @@ public class Health : MonoBehaviour, IEntity
     public HealthBar1 healthBar1;
 
 
-    // Start is called before the first frame update
+    //Postavljanje trenutnog zdravlja na max
+    //Pozivanje funkcije regeneracije zdravlja
     void Start()
     {
         currentHealth = maxHealth;
         InvokeRepeating("Regeneration", 1f, 5f);
     }
 
-    // Update is called once per frame
+    //provjeravanje zdravlja igrača
     void Update()
     {
+        
         healthBar.SetHealth(currentHealth);
         healthBar1.SetHealth(currentHealth);
      
     }
 
 
+    //Oduzimanje zdravlja od strane neprijatelja
     public void ApplyDamage (float points)
     {
         currentHealth -= (int)points;
@@ -39,6 +42,7 @@ public class Health : MonoBehaviour, IEntity
         healthBar1.SetHealth(currentHealth);
     }
 
+    //funkcija za regeneraciju zdravlja
     public void Regeneration()
     {
 

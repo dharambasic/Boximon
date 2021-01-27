@@ -62,8 +62,6 @@
      <Compile Include="Assets\Scripts\Enemy\SC_InterfaceMenager.cs" />
      <Compile Include="Assets\Scripts\Enemy\SC_NPCEnemy.cs" />
      <Compile Include="Assets\Scripts\Explosions_&amp;_Impacts\ExplosionScript.cs" />
-     <Compile Include="Assets\Scripts\Explosions_&amp;_Impacts\ExplosiveBarrelScript.cs" />
-     <Compile Include="Assets\Scripts\Explosions_&amp;_Impacts\ImpactScript.cs" />
      <Compile Include="Assets\Scripts\FPSController\FpsControllerLPFP.cs" />
      <Compile Include="Assets\Scripts\Health\Health.cs" />
      <Compile Include="Assets\Scripts\Health\HealthBar.cs" />
@@ -73,10 +71,8 @@
      <Compile Include="Assets\Scripts\Misc\LookAtCamera.cs" />
      <Compile Include="Assets\Scripts\Music.cs" />
      <Compile Include="Assets\Scripts\Sound.cs" />
-     <Compile Include="Assets\Scripts\TargetScript.cs" />
      <Compile Include="Assets\Scripts\Weapon_Scripts\AutomaticGunScriptLPFP.cs" />
      <Compile Include="Assets\Scripts\Weapon_Scripts\HandgunScriptLPFP.cs" />
-     <Compile Include="Assets\Scripts\Weapon_Scripts\knife.cs" />
      <None Include="Assets\ProjectSettings\ProjectVersion.txt" />
      <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
      <None Include="Assets\Prefabs\Baker House\Readme.txt" />

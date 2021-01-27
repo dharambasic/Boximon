@@ -12,9 +12,10 @@ public class HealthBar1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        //pronalaženje igračeve komponente za zdravlje
         playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<Health>();
         healthBar = GetComponent<Slider>();
+        //Postavljanje vrijednosti healthbara na maximum(100)
         healthBar.maxValue = playerHealth.maxHealth;
         healthBar.value = playerHealth.maxHealth;
 
@@ -22,7 +23,7 @@ public class HealthBar1 : MonoBehaviour
 
     }
 
-
+    //funkcija za postavljanje zdravlja igrača
     public void SetHealth(int hp)
     {
         healthBar.value = hp;
