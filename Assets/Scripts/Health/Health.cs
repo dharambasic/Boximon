@@ -7,11 +7,8 @@ public class Health : MonoBehaviour, IEntity
 
     public int currentHealth = 0;
     public int maxHealth = 100;
-    
-
     public HealthBar1 healthBar;
     public HealthBar1 healthBar1;
-
 
     //Postavljanje trenutnog zdravlja na max
     //Pozivanje funkcije regeneracije zdravlja
@@ -30,14 +27,10 @@ public class Health : MonoBehaviour, IEntity
      
     }
 
-
     //Oduzimanje zdravlja od strane neprijatelja
     public void ApplyDamage (float points)
     {
         currentHealth -= (int)points;
-
-       
-
         healthBar.SetHealth(currentHealth);
         healthBar1.SetHealth(currentHealth);
     }
@@ -45,7 +38,6 @@ public class Health : MonoBehaviour, IEntity
     //funkcija za regeneraciju zdravlja
     public void Regeneration()
     {
-
         if (currentHealth < 100) {
             currentHealth += 5;
             healthBar.SetHealth(currentHealth);

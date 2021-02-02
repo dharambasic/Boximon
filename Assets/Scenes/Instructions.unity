@@ -784,8 +784,10 @@ MonoBehaviour:
 
     Knife attack: f
 
-    Swaping weapom: 1-assault
-    rifle, 2-pistol
+    Inspect weapon: t
+
+    Swaping
+    weapom: 1-assault rifle, 2-pistol
 
 '
 --- !u!222 &1946078955

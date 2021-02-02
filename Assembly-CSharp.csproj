@@ -55,24 +55,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Bullet\BulletScript.cs" />
-     <Compile Include="Assets\Scripts\Casings_&amp;_Projectiles\CasingScript.cs" />
-     <Compile Include="Assets\Scripts\Casings_&amp;_Projectiles\GrenadeScript.cs" />
+     <Compile Include="Assets\Scripts\Bullet\Bullet.cs" />
+     <Compile Include="Assets\Scripts\Casings_&amp;_Projectiles\Casing.cs" />
+     <Compile Include="Assets\Scripts\Casings_&amp;_Projectiles\Grenade.cs" />
      <Compile Include="Assets\Scripts\DebrisScript.cs" />
-     <Compile Include="Assets\Scripts\Enemy\SC_InterfaceMenager.cs" />
-     <Compile Include="Assets\Scripts\Enemy\SC_NPCEnemy.cs" />
-     <Compile Include="Assets\Scripts\Explosions_&amp;_Impacts\ExplosionScript.cs" />
-     <Compile Include="Assets\Scripts\FPSController\FpsControllerLPFP.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Damage.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Explosions_&amp;_Impacts\Explosion.cs" />
+     <Compile Include="Assets\Scripts\FPSController\FpsController.cs" />
      <Compile Include="Assets\Scripts\Health\Health.cs" />
      <Compile Include="Assets\Scripts\Health\HealthBar.cs" />
      <Compile Include="Assets\Scripts\Health\HealthBar1.cs" />
      <Compile Include="Assets\Scripts\LevelMenager.cs" />
-     <Compile Include="Assets\Scripts\LowPolyWater.cs" />
      <Compile Include="Assets\Scripts\Misc\LookAtCamera.cs" />
      <Compile Include="Assets\Scripts\Music.cs" />
      <Compile Include="Assets\Scripts\Sound.cs" />
-     <Compile Include="Assets\Scripts\Weapon_Scripts\AutomaticGunScriptLPFP.cs" />
-     <Compile Include="Assets\Scripts\Weapon_Scripts\HandgunScriptLPFP.cs" />
+     <Compile Include="Assets\Scripts\Water.cs" />
+     <Compile Include="Assets\Scripts\Weapon_Scripts\Weapons.cs" />
      <None Include="Assets\ProjectSettings\ProjectVersion.txt" />
      <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
      <None Include="Assets\Prefabs\Baker House\Readme.txt" />
