@@ -31,21 +31,14 @@ public class Bullet : MonoBehaviour {
 		{
 			Destroy (gameObject);
 		}
-
-		
-
-	
 	//provjerana se kolizija s neprijateljskim objektom
 	//ako se sudara, oduzima neprijatelju 25 zdravlja
 
 		if (collision.gameObject.CompareTag("Enemy")) {
 
-			collision.gameObject.GetComponent<Enemy>().ApplyDamage(25);
-			
-			
+			collision.gameObject.GetComponent<Enemy>().ApplyDamage(25);						
 		}
 	}
-
 	private IEnumerator DestroyTimer () 
 	{
 		//Čekanje nasumičnog vremena za uništenje objekta

@@ -23,8 +23,7 @@ public class Health : MonoBehaviour, IEntity
     {
         
         healthBar.SetHealth(currentHealth);
-        healthBar1.SetHealth(currentHealth);
-     
+        healthBar1.SetHealth(currentHealth);  
     }
 
     //Oduzimanje zdravlja od strane neprijatelja
@@ -43,7 +42,5 @@ public class Health : MonoBehaviour, IEntity
             healthBar.SetHealth(currentHealth);
             healthBar1.SetHealth(currentHealth);
            }
-    }
-
-    
+    }   
 }

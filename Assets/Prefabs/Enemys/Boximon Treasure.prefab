@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 7649598376703101150}
   - component: {fileID: 4956625216694142037}
   - component: {fileID: 2441383659157715098}
-  - component: {fileID: 5444126083451219996}
   - component: {fileID: 651984576122074135}
+  - component: {fileID: 5444126083451219996}
   - component: {fileID: 5339210084183217507}
   m_Layer: 0
   m_Name: Boximon Treasure
@@ -90,6 +90,31 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &651984576122074135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873342793350619243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 681b8996f46e01b4fb6a8edd25d0878a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDistance: 1
+  movementSpeed: 3
+  npcHP: 300
+  player: {fileID: 0}
+  npcDamage: 25
+  attackRate: 0.5
+  firePoint: {fileID: 5339137315099381427}
+  npcDeadPrefab: {fileID: 8382285716119851757, guid: 234085aeea38d6e4b9ae0f21860396a7,
+    type: 3}
+  range: 20
+  dead: {fileID: 0}
+  volume: 100
+  playerTransform: {fileID: 0}
 --- !u!54 &5444126083451219996
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -106,29 +131,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &651984576122074135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 873342793350619243}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 681b8996f46e01b4fb6a8edd25d0878a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackDistance: 1
-  movementSpeed: 3
-  npcHP: 300
-  npcDamage: 25
-  attackRate: 0.5
-  firePoint: {fileID: 5339137315099381427}
-  npcDeadPrefab: {fileID: 8382285716119851757, guid: 234085aeea38d6e4b9ae0f21860396a7,
-    type: 3}
-  range: 20
-  playerTransform: {fileID: 0}
-  es: {fileID: 0}
 --- !u!65 &5339210084183217507
 BoxCollider:
   m_ObjectHideFlags: 0

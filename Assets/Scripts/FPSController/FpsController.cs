@@ -158,7 +158,7 @@ using UnityEngine.UI;
             Pistol.gameObject.SetActive(true);
             Assault.gameObject.SetActive(false);
         }
-        //pritiskom na tipku 1, aktivira se gameObject s sutomatskim oružjem
+        //pritiskom na tipku 1, aktivira se gameObject s automatskim oružjem
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             Assault.gameObject.SetActive(true);
@@ -221,24 +221,21 @@ using UnityEngine.UI;
                        Quaternion.AngleAxis(clampedY, Vector3.left);
         transform.eulerAngles = new Vector3(0f, rotation.eulerAngles.y, 0f);
         arms1.rotation = rotation;
-    }
+       }
 			
-       
-        /// funkcija vrača toraciju kamere oko y osi
+        /// funkcija vrača rotaciju kamere oko y osi
         private float RotationXRaw
         {
             get { return input.RotateX * mouseSensitivity; }
         }
-
     
-    /// funkcija vrača toraciju kamere oko x osi
+    /// funkcija vrača rotaciju kamere oko x osi
     private float RotationYRaw
         {
             get { return input.RotateY * mouseSensitivity; }
         }
 			
-        /// Ograničena vertikalna rotacija
-     
+        /// Ograničena vertikalna rotacija     
         private float RestrictVerticalRotation(float mouseY)
         {
 			var currentAngle = NormalizeAngle(arms.eulerAngles.x);
@@ -249,7 +246,6 @@ using UnityEngine.UI;
         }
 			
         /// Normalizacija kuteva
-     
         private static float NormalizeAngle(float angleDegrees)
         {
             while (angleDegrees > 180f)

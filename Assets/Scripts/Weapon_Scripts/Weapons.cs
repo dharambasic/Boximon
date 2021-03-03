@@ -128,7 +128,7 @@ public class Weapons : MonoBehaviour {
 		currentWeaponText.text = weaponName;
 		totalAmmoText.text = ammo.ToString();
 
-		//Weapon sway
+		//Skloni oružje
 		initialSwayPosition = transform.localPosition;
 
 		//Set the shoot sound to audio source
@@ -137,17 +137,18 @@ public class Weapons : MonoBehaviour {
 
 	private void LateUpdate () {
 		
-		//Weapon sway
+		//if provjerava ako je oružje sklonjeno
 		if (weaponSway == true) 
 		{
 			float movementX = -Input.GetAxis ("Mouse X") * swayAmount;
 			float movementY = -Input.GetAxis ("Mouse Y") * swayAmount;
-			//Clamp movement to min and max values
+			//Clamp između minimalne i maksimalne vrijednosti
 			movementX = Mathf.Clamp 
 				(movementX, -maxSwayAmount, maxSwayAmount);
 			movementY = Mathf.Clamp 
 				(movementY, -maxSwayAmount, maxSwayAmount);
-			//Lerp local pos
+			//Lerp funkcija dviju točaka
+			//Lerp je matematička funkcija koja vrača vrijednost između dviju točaka na linearnoj skali
 			Vector3 finalSwayPosition = new Vector3 
 				(movementX, movementY, 0);
 			transform.localPosition = Vector3.Lerp 
@@ -158,7 +159,7 @@ public class Weapons : MonoBehaviour {
 	
 	private void Update () {
 
-		//pucanje
+		//Pritiskom na desni klik, približi se oružje kameri radi lakšeg ciljanja
 		if(Input.GetButton("Fire2") && !isReloading && !isRunning && !isInspecting) 
 		{
 			
@@ -185,13 +186,13 @@ public class Weapons : MonoBehaviour {
 				defaultFov,fovSpeed * Time.deltaTime);
 
 			isAiming = false;
-			//Stop aiming
+			//Zaustavljanje ciljanja
 			anim.SetBool ("Aim", false);
 				
 			soundHasPlayed = false;
 		}
-		
-		//If randomize muzzleflash is true, genereate random int values
+
+		//Ako je nasumični muzzleflash istinit,  generira nasumične integer vrijednosti
 		if (randomMuzzleflash == true) 
 		{
 			randomMuzzleflashValue = Random.Range (minRandomValue, maxRandomValue);
@@ -259,48 +260,48 @@ public class Weapons : MonoBehaviour {
 					} 
 					else if (randomMuzzleflash == true)
 					{
-						//Only emit if random value is 1
+						//emitirati ako je varijabla muzzleflasha na 1
 						if (randomMuzzleflashValue == 1) 
 						{
 							if (enableSparks == true) 
 							{
-								//Emit random amount of spark particles
+								//Emitiranje nasumičnu količinu čestica
 								sparkParticles.Emit (Random.Range (minSparkEmission, maxSparkEmission));
 							}
 							if (enableMuzzleflash == true) 
 							{
 								muzzleParticles.Emit (1);
-								//Light flash start
+								//svijetlost prilikom pucnja
 								StartCoroutine (MuzzleFlashLight ());
 							}
 						}
 					}
 				} 
-				else //if aiming
+				else //ako je približeno
 				{
-					
+					//animacija
 					anim.Play ("Aim Fire", 0, 0f);
 
-					//If random muzzle is false
+					//ako je random muzzle neistinit
 					if (!randomMuzzleflash) {
 						muzzleParticles.Emit (1);
-					//If random muzzle is true
+					//ako je istinit
 					} 
 					else if (randomMuzzleflash == true) 
 					{
-						//Only emit if random value is 1
+						//emitirati ako je varijabla muzzleflasha na 1
 						if (randomMuzzleflashValue == 1) 
 						{
 							if (enableSparks == true) 
 							{
-								//Emit random amount of spark particles
+								//Emitiranje nasumičnu količinu čestica
 								sparkParticles.Emit (Random.Range (minSparkEmission, maxSparkEmission));
 							}
 							if (enableMuzzleflash == true) 
 							{
 								muzzleParticles.Emit (1);
-								//Light flash start
-								StartCoroutine (MuzzleFlashLight ());
+								//svijetlost prilikom pucnja
+								StartCoroutine(MuzzleFlashLight ());
 							}
 						}
 					}
@@ -316,10 +317,7 @@ public class Weapons : MonoBehaviour {
 				bullet.GetComponent<Rigidbody>().velocity = 
 					bullet.transform.forward * bulletForce;
 				
-				//stvaranje čahure
-				Instantiate (Prefabs.casingPrefab, 
-					Spawnpoints.casingSpawnPoint.transform.position, 
-					Spawnpoints.casingSpawnPoint.transform.rotation);
+			
 			}
 		}
 
@@ -368,7 +366,7 @@ public class Weapons : MonoBehaviour {
 	private IEnumerator GrenadeSpawnDelay () {
 		
 		yield return new WaitForSeconds (grenadeSpawnDelay);
-		//Stvaranje granate na spaw
+		//Stvaranje granate na spawn pointu
 		Instantiate(Prefabs.grenadePrefab, 
 			Spawnpoints.grenadeSpawnPoint.transform.position, 
 			Spawnpoints.grenadeSpawnPoint.transform.rotation);
@@ -381,17 +379,8 @@ public class Weapons : MonoBehaviour {
 		if (outOfAmmo == true) 
 		{
 			anim.Play ("Reload Out Of Ammo", 0, 0f);
-
 			mainAudioSource.clip = SoundClips.reloadSoundOutOfAmmo;
 			mainAudioSource.Play ();
-
-			if (bulletInMagRenderer != null) 
-			{
-				bulletInMagRenderer.GetComponent
-				<SkinnedMeshRenderer> ().enabled = false;
-				//Start show bullet delay
-				StartCoroutine (ShowBulletInMag ());
-			}
 		} 
 
 		currentAmmo = ammo;
@@ -401,48 +390,25 @@ public class Weapons : MonoBehaviour {
 	//Reload
 	private void Reload () {
 		
+		//provjera ako oružje nema više metaka
 		if (outOfAmmo == true) 
 		{
-	
 			anim.Play ("Reload Out Of Ammo", 0, 0f);
-
 			mainAudioSource.clip = SoundClips.reloadSoundOutOfAmmo;
 			mainAudioSource.Play ();
 
-		
-			if (bulletInMagRenderer != null) 
-			{
-				bulletInMagRenderer.GetComponent
-				<SkinnedMeshRenderer> ().enabled = false;
-				StartCoroutine (ShowBulletInMag ());
-			}
 		} 
 		else 
 		{
-
 			anim.Play ("Reload Ammo Left", 0, 0f);
-
 			mainAudioSource.clip = SoundClips.reloadSoundAmmoLeft;
 			mainAudioSource.Play ();
-
-	
-			if (bulletInMagRenderer != null) 
-			{
-				bulletInMagRenderer.GetComponent
-				<SkinnedMeshRenderer> ().enabled = true;
-			}
 		}
 		currentAmmo = ammo;
 		outOfAmmo = false;
 	}
 
 	
-	private IEnumerator ShowBulletInMag () {
-		
-		//Wait set amount of time before showing bullet in mag
-		yield return new WaitForSeconds (showBulletInMagDelay);
-		bulletInMagRenderer.GetComponent<SkinnedMeshRenderer> ().enabled = true;
-	}
 
 	//Stvaranje svijetlosti prilikom pucnja
 	private IEnumerator MuzzleFlashLight () {

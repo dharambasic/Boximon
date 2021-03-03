@@ -35,7 +35,6 @@ public class Enemy : MonoBehaviour, IEntity
         r.isKinematic = true;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (agent.remainingDistance - attackDistance < 0.01f)
@@ -63,7 +62,6 @@ public class Enemy : MonoBehaviour, IEntity
         //učitava se lose scena
         if (player.currentHealth <= 0)
         {
-
             LevelMenager man = GameObject.Find("LevelMenager").GetComponent<LevelMenager>();
             man.LoadLevel("Lose");
             Cursor.lockState = CursorLockMode.Confined;
@@ -75,25 +73,19 @@ public class Enemy : MonoBehaviour, IEntity
 
             agent.destination = playerTransform.position;
         }
-    
         //Pogled na igrača
         transform.LookAt(new Vector3(playerTransform.transform.position.x, transform.position.y, playerTransform.position.z));
-        
         r.velocity *= 0.99f;
     }
-
 
     //funkcija za oduzimanje zdravlja neprijatelja
     public void ApplyDamage(float points)
     {
         npcHP -= points;
         if (npcHP <= 0)
-        {
-            
+        {          
             //Uništavanje neprijatelja
             GameObject npcDead = Instantiate(npcDeadPrefab, transform.position, transform.rotation);
-            
-
             //Padanje mrtvog prefaba neprijatelja prema dolje
             npcDead.GetComponent<Rigidbody>().velocity = (-(playerTransform.position - transform.position).normalized * 8) + new Vector3(0, 5, 0);
             Destroy(npcDead, 10);
@@ -101,11 +93,8 @@ public class Enemy : MonoBehaviour, IEntity
             AudioSource.PlayClipAtPoint(dead, transform.position, 10f);
           //Uništavanje neprijatelja
             Destroy(gameObject);
-            
         }
     }
-
-
     //Funkcija za provjeravanje kolizije s igračem, ako je kolizija istinita, oduzima igraču zdravlje
     private void OnCollisionEnter(Collision collision)
     {
@@ -116,6 +105,4 @@ public class Enemy : MonoBehaviour, IEntity
 
         }
     }
-
-
 }

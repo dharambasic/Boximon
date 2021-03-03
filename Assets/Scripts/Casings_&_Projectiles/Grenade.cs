@@ -25,10 +25,8 @@ public class Grenade : MonoBehaviour {
 	private void Awake () 
 	{
 		//Nasumična sila bacanja
-	
 		throwForce = Random.Range
 			(minimumForce, maximumForce);
-
 		//Nasumična rotacija granate
 		GetComponent<Rigidbody>().AddRelativeTorque 
 		   (Random.Range(500, 1500), 
@@ -45,10 +43,6 @@ public class Grenade : MonoBehaviour {
 		//Startanje timera eksplozije
 		StartCoroutine (ExplosionTimer ());
 	}
-
-
-
-
 	private IEnumerator ExplosionTimer () 
 	{
 		//Čekanje isteka timera eksplozije
@@ -57,8 +51,7 @@ public class Grenade : MonoBehaviour {
 		//Raycast kontrolira ako je granata pala na zemlju
 		RaycastHit checkGround;
 		if (Physics.Raycast(transform.position, Vector3.down, out checkGround, 50))
-		{
-			
+		{			
 			Instantiate (explosionPrefab, checkGround.point, 
 				Quaternion.FromToRotation (Vector3.forward, checkGround.normal)); 
 		}
@@ -80,14 +73,9 @@ public class Grenade : MonoBehaviour {
 			{
 						//oduzimanje zdravlja neprijatelja
 				hit.gameObject.GetComponent<Enemy>().ApplyDamage(100);
-			}
-
-			
-			
+			}		
 		}
-
 		//Uništavanje granate nakon eksplozije
 		Destroy (gameObject);
 	}
-
 	}

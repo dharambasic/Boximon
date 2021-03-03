@@ -72,6 +72,7 @@
      <Compile Include="Assets\Scripts\Sound.cs" />
      <Compile Include="Assets\Scripts\Water.cs" />
      <Compile Include="Assets\Scripts\Weapon_Scripts\Weapons.cs" />
+     <Compile Include="Assets\Scripts\knife.cs" />
      <None Include="Assets\ProjectSettings\ProjectVersion.txt" />
      <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
      <None Include="Assets\Prefabs\Baker House\Readme.txt" />
